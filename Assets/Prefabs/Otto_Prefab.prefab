@@ -1,0 +1,3550 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1009040905179354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4556952344256896}
+  m_Layer: 0
+  m_Name: Yolo_LPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4556952344256896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009040905179354}
+  m_LocalRotation: {x: -0.70709777, y: -0.0000053262715, z: 0.0000030925949, w: 0.7071158}
+  m_LocalPosition: {x: -0.10000002, y: -0.000000009536743, z: -0.000000038146972}
+  m_LocalScale: {x: 0.9999994, y: 1.0000054, z: 0.9999944}
+  m_Children:
+  - {fileID: 4366022410023420}
+  - {fileID: 4829983577565388}
+  - {fileID: 4177130305904302}
+  m_Father: {fileID: 4221647121763392}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -85.71652, y: 134.98697, z: -132.03033}
+--- !u!1 &1009467727053594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4451161317646676}
+  m_Layer: 0
+  m_Name: Yolo_Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4451161317646676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009467727053594}
+  m_LocalRotation: {x: 0.4991227, y: -0.50086725, z: -0.4991312, w: 0.50087583}
+  m_LocalPosition: {x: -2.2618626e-15, y: 0.39999998, z: -0.0000000010334861}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 4941104332546306}
+  - {fileID: 4017047175887304}
+  - {fileID: 4915117857068184}
+  - {fileID: 4077156342121232}
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -0.2978061, y: -85.66137, z: -88.68346}
+--- !u!1 &1014832138019650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4044864789349444}
+  m_Layer: 0
+  m_Name: Yolo_RIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4044864789349444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014832138019650}
+  m_LocalRotation: {x: -0.00000003725278, y: -0.000000022351713, z: -0.000000059604574,
+    w: 1}
+  m_LocalPosition: {x: -0.09999994, y: 0.010000076, z: -0.03999981}
+  m_LocalScale: {x: 1.0000012, y: 1.0000033, z: 0.9999966}
+  m_Children:
+  - {fileID: 4728465253343074}
+  m_Father: {fileID: 4015563891500304}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.3551818, y: -0.349599, z: 45.453163}
+--- !u!1 &1017749712818684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4992203351879526}
+  m_Layer: 0
+  m_Name: Yolo_MouthN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992203351879526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017749712818684}
+  m_LocalRotation: {x: 0.52049965, y: -0.47862324, z: -0.47862294, w: 0.52049977}
+  m_LocalPosition: {x: 0.03577389, y: -0.028939124, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000027, y: 0.99999976, z: 0.99999774}
+  m_Children:
+  - {fileID: 4810230078098008}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 4.8001103, y: -90.00001, z: -89.99997}
+--- !u!1 &1040702277535942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4177130305904302}
+  m_Layer: 0
+  m_Name: Yolo_LThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4177130305904302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040702277535942}
+  m_LocalRotation: {x: 0.5303313, y: 0.53033, z: -0.04736683, w: 0.6597388}
+  m_LocalPosition: {x: -0.04432989, y: -0.024999924, z: 0.06749969}
+  m_LocalScale: {x: 0.9999959, y: 1.0000056, z: 0.99999857}
+  m_Children:
+  - {fileID: 4353821044687310}
+  m_Father: {fileID: 4556952344256896}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 45.127506, y: 109.89259, z: 48.65544}
+--- !u!1 &1063018942912614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4650520625060836}
+  m_Layer: 0
+  m_Name: Yolo_MouthW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4650520625060836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063018942912614}
+  m_LocalRotation: {x: 0.32541093, y: -0.6277801, z: -0.32759896, w: 0.6266409}
+  m_LocalPosition: {x: 0.03577389, y: -0.028939124, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000007, y: 0.99999803, z: 1.0000005}
+  m_Children:
+  - {fileID: 4395181107151632}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 31.127728, y: -173.72931, z: -89.8725}
+--- !u!1 &1066989569171702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4838144957664654}
+  m_Layer: 0
+  m_Name: Yolo_RPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4838144957664654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066989569171702}
+  m_LocalRotation: {x: 0.00000080740614, y: 0.0000006714344, z: 0.25882056, w: 0.9659254}
+  m_LocalPosition: {x: -0.06, y: -0.000000038146972, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000045, y: 0.9999991, z: 0.99999654}
+  m_Children: []
+  m_Father: {fileID: 4954435445008730}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000011898005, y: 0.00012006931, z: 68.7317}
+--- !u!1 &1080427656845772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4131503426475610}
+  - component: {fileID: 137147083184904424}
+  m_Layer: 0
+  m_Name: Yolo_Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4131503426475610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080427656845772}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137147083184904424
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080427656845772}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31859c2e902662f4ab03e2202098d65c, type: 2}
+  - {fileID: 2100000, guid: 19777f36a016de84eb829997ca9a9d3a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: bc5017337a27b564787edf100b706489, type: 3}
+  m_Bones:
+  - {fileID: 4941104332546306}
+  - {fileID: 4017047175887304}
+  - {fileID: 4945939213153834}
+  - {fileID: 4451161317646676}
+  - {fileID: 4915117857068184}
+  - {fileID: 4077156342121232}
+  - {fileID: 4653283775032932}
+  - {fileID: 4851308910937948}
+  - {fileID: 4903374686002872}
+  - {fileID: 4538768723503612}
+  - {fileID: 4170881060092034}
+  - {fileID: 4489040141037658}
+  - {fileID: 4626321014396224}
+  - {fileID: 4110957443802114}
+  - {fileID: 4806482509424684}
+  - {fileID: 4034213516251124}
+  - {fileID: 4711832175880962}
+  - {fileID: 4221647121763392}
+  - {fileID: 4556952344256896}
+  - {fileID: 4177130305904302}
+  - {fileID: 4366022410023420}
+  - {fileID: 4353821044687310}
+  - {fileID: 4829983577565388}
+  - {fileID: 4807420140219930}
+  - {fileID: 4776279794314818}
+  - {fileID: 4148303105907406}
+  - {fileID: 4757720449284722}
+  - {fileID: 4061308014912668}
+  - {fileID: 4638971915920882}
+  - {fileID: 4763108622787482}
+  - {fileID: 4130304382728760}
+  - {fileID: 4702989294330224}
+  - {fileID: 4992203351879526}
+  - {fileID: 4326186982179410}
+  - {fileID: 4396316067143504}
+  - {fileID: 4355381970680706}
+  - {fileID: 4759273410855368}
+  - {fileID: 4487551921466732}
+  - {fileID: 4933704703875736}
+  - {fileID: 4980207262901590}
+  - {fileID: 4884393179918584}
+  - {fileID: 4215364415406052}
+  - {fileID: 4679918485486946}
+  - {fileID: 4618122762586562}
+  - {fileID: 4036104821916372}
+  - {fileID: 4222463874573494}
+  - {fileID: 4893617709521642}
+  - {fileID: 4015563891500304}
+  - {fileID: 4605927016435350}
+  - {fileID: 4044864789349444}
+  - {fileID: 4043651558442894}
+  - {fileID: 4954435445008730}
+  - {fileID: 4728465253343074}
+  - {fileID: 4838144957664654}
+  - {fileID: 4540415120562224}
+  - {fileID: 4304218470645918}
+  - {fileID: 4060253474003416}
+  - {fileID: 4015570161224374}
+  - {fileID: 4620594920514128}
+  - {fileID: 4692783399514926}
+  - {fileID: 4650520625060836}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4451161317646676}
+  m_AABB:
+    m_Center: {x: -0.19583443, y: -0.004472509, z: -0.0000006854534}
+    m_Extent: {x: 0.63589764, y: 0.30005604, z: 0.53079593}
+  m_DirtyAABB: 0
+--- !u!1 &1096975914868224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4801800768391532}
+  - component: {fileID: 95488785469013930}
+  - component: {fileID: 195344685843802882}
+  - component: {fileID: 114646671591273906}
+  - component: {fileID: 54614072029034520}
+  - component: {fileID: 114943716627573396}
+  m_Layer: 0
+  m_Name: Yolo_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4801800768391532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096975914868224}
+  m_LocalRotation: {x: 0, y: 0.9997087, z: -0, w: -0.024135381}
+  m_LocalPosition: {x: 0.011, y: 0, z: 0.105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4405674940614946}
+  - {fileID: 4508507374100990}
+  - {fileID: 4363964696193616}
+  - {fileID: 4191036527852206}
+  - {fileID: 4297454558738954}
+  - {fileID: 4131503426475610}
+  - {fileID: 4519145788880604}
+  - {fileID: 4451161317646676}
+  - {fileID: 4874131753930868}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 182.76599, z: 0}
+--- !u!95 &95488785469013930
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096975914868224}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: bc5017337a27b564787edf100b706489, type: 3}
+  m_Controller: {fileID: 9100000, guid: bff40dc4f8ca49c4f863dee8bfb7608d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!195 &195344685843802882
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096975914868224}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &114646671591273906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096975914868224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 5b2d6820c2c0c0849988d95c8588d334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &54614072029034520
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096975914868224}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
+--- !u!114 &114943716627573396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096975914868224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: cd309f51066cd604a87282758cb8d3f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apple: {fileID: 1587357171781184}
+  bottle: {fileID: 1291600628178172}
+  tableApple: {fileID: 0}
+  tableBottle: {fileID: 0}
+--- !u!1 &1106499226581094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4353821044687310}
+  m_Layer: 0
+  m_Name: Yolo_LThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4353821044687310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106499226581094}
+  m_LocalRotation: {x: -0.0000006224987, y: 0.00000042328185, z: 0.25881705, w: 0.96592635}
+  m_LocalPosition: {x: -0.04999998, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999948, y: 1.0000061, z: 0.9999995}
+  m_Children: []
+  m_Father: {fileID: 4177130305904302}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000081395316, y: 0.00002777748, z: 22.610468}
+--- !u!1 &1158515069844514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4596645979144744}
+  m_Layer: 0
+  m_Name: Yolo_MouthNE_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4596645979144744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158515069844514}
+  m_LocalRotation: {x: 0, y: -0, z: -0.0000000014349841, w: 1}
+  m_LocalPosition: {x: -0.25, y: 0.000000004438625, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 4702989294330224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.0000001644446}
+--- !u!1 &1171404549076726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4395181107151632}
+  m_Layer: 0
+  m_Name: Yolo_MouthW_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4395181107151632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171404549076726}
+  m_LocalRotation: {x: 0.000000002320039, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.25, y: 0.0000000012671444, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4650520625060836}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000026586912, y: 0, z: 0}
+--- !u!1 &1177266537842928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4605927016435350}
+  m_Layer: 0
+  m_Name: Yolo_RThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4605927016435350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177266537842928}
+  m_LocalRotation: {x: -0.53033066, y: -0.5303307, z: -0.047365364, w: 0.6597389}
+  m_LocalPosition: {x: -0.044329986, y: -0.024999695, z: -0.06750012}
+  m_LocalScale: {x: 1.0000057, y: 0.99999404, z: 1.0000012}
+  m_Children:
+  - {fileID: 4043651558442894}
+  m_Father: {fileID: 4015563891500304}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -27.255085, y: -110.27513, z: 76.41685}
+--- !u!1 &1186473283373680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4465982868683000}
+  m_Layer: 0
+  m_Name: Yolo_LBrowUp_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4465982868683000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186473283373680}
+  m_LocalRotation: {x: 0, y: -1.1761259e-10, z: -0, w: 1}
+  m_LocalPosition: {x: -0.099999994, y: -0.000000009536743, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4626321014396224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0.000000013478026, z: 0}
+--- !u!1 &1202711430381678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4326186982179410}
+  m_Layer: 0
+  m_Name: Yolo_MouthSE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4326186982179410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202711430381678}
+  m_LocalRotation: {x: 0.6905056, y: 0.09109124, z: -0.15426815, w: 0.70078933}
+  m_LocalPosition: {x: 0.028764753, y: -0.014226003, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000008, y: 0.99999934, z: 1.0000002}
+  m_Children:
+  - {fileID: 4295082609749892}
+  m_Father: {fileID: 4653283775032932}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 84.8117, y: -70.753235, z: -90.756165}
+--- !u!1 &1211552660064376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4215364415406052}
+  m_Layer: 0
+  m_Name: Yolo_RUpperarm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4215364415406052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211552660064376}
+  m_LocalRotation: {x: -0.103781044, y: -0.35528573, z: 0.15353356, w: 0.91620356}
+  m_LocalPosition: {x: -0.14999998, y: -1.4901161e-10, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000006, y: 0.99999905, z: 1.0000005}
+  m_Children:
+  - {fileID: 4036104821916372}
+  m_Father: {fileID: 4899945038729712}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -23.473675, y: -54.348732, z: 9.823118}
+--- !u!1 &1221324628658860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4311970977762310}
+  m_Layer: 0
+  m_Name: Yolo_RBrowUp_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4311970977762310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221324628658860}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.099999994, y: -0.0000000047683715, z: 0.000000019073486}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4933704703875736}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1237723683637378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4077156342121232}
+  m_Layer: 0
+  m_Name: Yolo_Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4077156342121232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237723683637378}
+  m_LocalRotation: {x: 0.18420407, y: 0.6826925, z: -0.68269217, w: -0.18420416}
+  m_LocalPosition: {x: -0.10034844, y: -0.0996504, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999996, z: 1.0000005}
+  m_Children:
+  - {fileID: 4732295450359292}
+  m_Father: {fileID: 4451161317646676}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 60.356434, y: -90.11475, z: 84.04647}
+--- !u!1 &1244977743218236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4405674940614946}
+  - component: {fileID: 136622263605573508}
+  - component: {fileID: 114138760466653954}
+  - component: {fileID: 114928356642971268}
+  - component: {fileID: 443249143}
+  m_Layer: 0
+  m_Name: AI_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4405674940614946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244977743218236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &136622263605573508
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244977743218236}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.1
+  m_Height: 2.48
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114138760466653954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244977743218236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 4077bfba82c397a41bb3fffb71da9a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DomainData:
+    m_BehaviorDefinition: {fileID: 11400000, guid: da983e96120579d4fa68db71b771528c,
+      type: 2}
+    m_InitialDomainObjectData:
+    - m_Name: Bed
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Location
+        m_FieldValues:
+        - m_Name: Transform
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+      - m_TraitDefinitionName: Bed
+        m_FieldValues: []
+    - m_Name: FoodDispenser
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Location
+        m_FieldValues:
+        - m_Name: Transform
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+      - m_TraitDefinitionName: Dispenser
+        m_FieldValues:
+        - m_Name: ConsumableType
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: BottleDispenser
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Location
+        m_FieldValues:
+        - m_Name: Transform
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+      - m_TraitDefinitionName: Dispenser
+        m_FieldValues:
+        - m_Name: ConsumableType
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 1
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Workstation
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Location
+        m_FieldValues:
+        - m_Name: Transform
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+      - m_TraitDefinitionName: Workstation
+        m_FieldValues: []
+    - m_Name: Yolo
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Location
+        m_FieldValues:
+        - m_Name: Transform
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 4801800768391532}
+      - m_TraitDefinitionName: Agent
+        m_FieldValues: []
+    - m_Name: Yolo_Hunger
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Need
+        m_FieldValues:
+        - m_Name: NeedType
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: Urgency
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: ChangePerSecond
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 1
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Yolo_Thirst
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Need
+        m_FieldValues:
+        - m_Name: NeedType
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 1
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: Urgency
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: ChangePerSecond
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 2
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Yolo_Fatigue
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Need
+        m_FieldValues:
+        - m_Name: NeedType
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 2
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: Urgency
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: ChangePerSecond
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 1
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Duration_5s
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Duration
+        m_FieldValues:
+        - m_Name: Time
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 5
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Duration_10s
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Duration
+        m_FieldValues:
+        - m_Name: Time
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 10
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Duration_15s
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Duration
+        m_FieldValues:
+        - m_Name: Time
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 15
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Inventory_Apples
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Inventory
+        m_FieldValues:
+        - m_Name: ConsumableType
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: Amount
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: SatisfiesNeed
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: NeedReduction
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 50
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    - m_Name: Inventory_Bottles
+      m_SourceObject: {fileID: 0}
+      m_TraitData:
+      - m_TraitDefinitionName: Inventory
+        m_FieldValues:
+        - m_Name: ConsumableType
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 1
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: Amount
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 0
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: SatisfiesNeed
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 1
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+        - m_Name: NeedReduction
+          m_BoolValue: 0
+          m_FloatValue: 0
+          m_IntValue: 50
+          m_StringValue: 
+          m_ObjectValue: {fileID: 0}
+    m_InitialStateTraitData:
+    - m_TraitDefinitionName: Time
+      m_FieldValues:
+      - m_Name: Value
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+--- !u!114 &114928356642971268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244977743218236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 849509d8c69207940b1017d478b1854d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIBarFood: {fileID: 0}
+  UIBarRest: {fileID: 0}
+  UIBarJoy: {fileID: 0}
+  AppleIcon: {fileID: 0}
+  BottleIcon: {fileID: 0}
+  InventoryOffset: 40
+--- !u!54 &443249143
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244977743218236}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
+--- !u!1 &1250642897868348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4732295450359292}
+  m_Layer: 0
+  m_Name: Yolo_Tail_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4732295450359292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250642897868348}
+  m_LocalRotation: {x: -4.7704754e-22, y: -6.379541e-15, z: -0.000000074777724, w: 1}
+  m_LocalPosition: {x: -0.20000005, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 4077156342121232}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.0933635e-19, y: -7.3107476e-13, z: -0.000008568587}
+--- !u!1 &1257821654253916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4638971915920882}
+  m_Layer: 0
+  m_Name: Yolo_LToePinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4638971915920882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257821654253916}
+  m_LocalRotation: {x: -0.022720413, y: -0.17161638, z: -0.12842986, w: 0.9764924}
+  m_LocalPosition: {x: -0.07607011, y: -0.011768265, z: -0.078793555}
+  m_LocalScale: {x: 1.0000017, y: 0.999999, z: 0.99999964}
+  m_Children: []
+  m_Father: {fileID: 4061308014912668}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -5.065474, y: -19.306124, z: -14.095171}
+--- !u!1 &1284454431990394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4635453826313906}
+  m_Layer: 0
+  m_Name: Yolo_MouthSW_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4635453826313906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284454431990394}
+  m_LocalRotation: {x: 0, y: -0.000000007450579, z: -0, w: 1}
+  m_LocalPosition: {x: -0.24999996, y: -0.000000018146965, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999976}
+  m_Children: []
+  m_Father: {fileID: 4487551921466732}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0.00000085381265, z: 0}
+--- !u!1 &1291600628178172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4880109100410862}
+  - component: {fileID: 33235557786972212}
+  - component: {fileID: 23281356286956266}
+  - component: {fileID: 95228588928418606}
+  m_Layer: 0
+  m_Name: Prop_Bottle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4880109100410862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291600628178172}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: -0.105}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4508507374100990}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!33 &33235557786972212
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291600628178172}
+  m_Mesh: {fileID: 4300000, guid: f3c75cb6e986ca54abd655b96dab197c, type: 3}
+--- !u!23 &23281356286956266
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291600628178172}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 07cc15634d0d26a44ba9704ecb041274, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &95228588928418606
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291600628178172}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: f3c75cb6e986ca54abd655b96dab197c, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1297034074810876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4017047175887304}
+  m_Layer: 0
+  m_Name: Yolo_RThigh1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4017047175887304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297034074810876}
+  m_LocalRotation: {x: -0.17154767, y: 0.97809154, z: -0.09782176, w: -0.0658732}
+  m_LocalPosition: {x: -0, y: -0.00000022634863, z: -0.09999991}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+  m_Children:
+  - {fileID: 4884393179918584}
+  m_Father: {fileID: 4451161317646676}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 16.834095, y: -173.4068, z: -5.2692}
+--- !u!1 &1299909502858296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4620594920514128}
+  m_Layer: 0
+  m_Name: Yolo_RToeThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4620594920514128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299909502858296}
+  m_LocalRotation: {x: -0.0114201335, y: -0.08612242, z: -0.13009658, w: 0.98768795}
+  m_LocalPosition: {x: -0.11396661, y: 0.009102493, z: -0.059696276}
+  m_LocalScale: {x: 1.0000011, y: 0.9999989, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4060253474003416}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -2.5727494, y: -9.639247, z: -14.763223}
+--- !u!1 &1318765799693616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4764444974733136}
+  m_Layer: 0
+  m_Name: Yolo_Ribcage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4764444974733136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318765799693616}
+  m_LocalRotation: {x: 0.0000000016331486, y: 1.15484775e-10, z: -0.005295738, w: 0.999986}
+  m_LocalPosition: {x: -0.14999992, y: 0, z: 9.094947e-15}
+  m_LocalScale: {x: 0.99999946, y: 0.9999992, z: 0.9999999}
+  m_Children:
+  - {fileID: 4386366360005064}
+  - {fileID: 4903374686002872}
+  - {fileID: 4899945038729712}
+  m_Father: {fileID: 4851308910937948}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 1.3752722, y: 2.2514932, z: -0.93078417}
+--- !u!1 &1319479305709198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4011138805868330}
+  m_Layer: 0
+  m_Name: Yolo_LEye_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4011138805868330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1319479305709198}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.100000076, y: -0.000000028610229, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000006, y: 0.9999999, z: 0.99999887}
+  m_Children: []
+  m_Father: {fileID: 4110957443802114}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1326676342273802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4181206313714180}
+  m_Layer: 0
+  m_Name: Yolo_MouthE_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4181206313714180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326676342273802}
+  m_LocalRotation: {x: -1.9082861e-16, y: -0.000000012806295, z: -0.000000014901158,
+    w: 1}
+  m_LocalPosition: {x: -0.25000003, y: 0.000000020656106, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4355381970680706}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -4.3736675e-14, y: -0.0000014675602, z: -0.0000017076253}
+--- !u!1 &1331243307171830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4061308014912668}
+  m_Layer: 0
+  m_Name: Yolo_LFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4061308014912668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331243307171830}
+  m_LocalRotation: {x: -0.019252626, y: 0.061655626, z: -0.8034193, w: 0.5918999}
+  m_LocalPosition: {x: -0.10000002, y: -0.0000000023841857, z: -0.000000019073486}
+  m_LocalScale: {x: 1.0000104, y: 0.9999893, z: 1}
+  m_Children:
+  - {fileID: 4130304382728760}
+  - {fileID: 4638971915920882}
+  - {fileID: 4763108622787482}
+  m_Father: {fileID: 4757720449284722}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.358753, y: 4.745637, z: -106.654755}
+--- !u!1 &1332413946195052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4015563891500304}
+  m_Layer: 0
+  m_Name: Yolo_RPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4015563891500304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332413946195052}
+  m_LocalRotation: {x: 0.70715886, y: 0.000005463496, z: 0.0000029340697, w: 0.7070548}
+  m_LocalPosition: {x: -0.09999998, y: 0.000000009536743, z: 0.000000038146972}
+  m_LocalScale: {x: 1.000001, y: 0.9999945, z: 1.000005}
+  m_Children:
+  - {fileID: 4044864789349444}
+  - {fileID: 4954435445008730}
+  - {fileID: 4605927016435350}
+  m_Father: {fileID: 4893617709521642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 71.898994, y: -129.70259, z: -131.1384}
+--- !u!1 &1342109929657664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4763108622787482}
+  m_Layer: 0
+  m_Name: Yolo_LToeThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4763108622787482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342109929657664}
+  m_LocalRotation: {x: 0.011294041, y: 0.08696752, z: -0.12993413, w: 0.9876367}
+  m_LocalPosition: {x: -0.113966554, y: 0.009102493, z: 0.059696272}
+  m_LocalScale: {x: 1.0000013, y: 0.9999989, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 4061308014912668}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 2.5692499, y: 9.734955, z: -14.743063}
+--- !u!1 &1346337408485860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4945939213153834}
+  m_Layer: 0
+  m_Name: Yolo_LThigh2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4945939213153834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346337408485860}
+  m_LocalRotation: {x: 0.000000001862645, y: 0.000000007450581, z: 0.000000014901161,
+    w: 1}
+  m_LocalPosition: {x: -0.10000004, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 4148303105907406}
+  m_Father: {fileID: 4941104332546306}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000010672597, y: -7.1054274e-14, z: 1.3028675e-11}
+--- !u!1 &1346695896078388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4170881060092034}
+  m_Layer: 0
+  m_Name: Yolo_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4170881060092034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346695896078388}
+  m_LocalRotation: {x: -0.0000000014856315, y: 0.000000014559643, z: 0.13225473, w: 0.99121577}
+  m_LocalPosition: {x: -0.14996505, y: 0, z: 5.456968e-14}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 4653283775032932}
+  - {fileID: 4806482509424684}
+  - {fileID: 4626321014396224}
+  - {fileID: 4110957443802114}
+  - {fileID: 4489040141037658}
+  - {fileID: 4355381970680706}
+  - {fileID: 4992203351879526}
+  - {fileID: 4702989294330224}
+  - {fileID: 4759273410855368}
+  - {fileID: 4650520625060836}
+  - {fileID: 4980207262901590}
+  - {fileID: 4933704703875736}
+  - {fileID: 4618122762586562}
+  - {fileID: 4679918485486946}
+  m_Father: {fileID: 4903374686002872}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.8258611, y: -2.1510348, z: 16.922565}
+--- !u!1 &1350880429135274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4893617709521642}
+  m_Layer: 0
+  m_Name: Yolo_RForearm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4893617709521642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350880429135274}
+  m_LocalRotation: {x: -0.000000014901161, y: 0.000000029802326, z: -0.0000000074505815,
+    w: 1}
+  m_LocalPosition: {x: -0.10000002, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4015563891500304}
+  m_Father: {fileID: 4222463874573494}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 11.794429, y: 0.0000013510395, z: -0.0000017444743}
+--- !u!1 &1365344253370638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4954435445008730}
+  m_Layer: 0
+  m_Name: Yolo_RPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4954435445008730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365344253370638}
+  m_LocalRotation: {x: 0.14519371, y: 0.14519452, z: 0.11141127, w: 0.9723296}
+  m_LocalPosition: {x: -0.082500264, y: 0.009659043, z: 0.040670376}
+  m_LocalScale: {x: 1.0000036, y: 1.0000006, z: 0.9999963}
+  m_Children:
+  - {fileID: 4838144957664654}
+  m_Father: {fileID: 4015563891500304}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 15.544488, y: 17.521729, z: 64.348015}
+--- !u!1 &1392811300237378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4647474050726046}
+  m_Layer: 0
+  m_Name: Yolo_MouthNW_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4647474050726046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392811300237378}
+  m_LocalRotation: {x: 0.0000000025867841, y: -0.0000000074505793, z: -0.000000029535267,
+    w: 1}
+  m_LocalPosition: {x: -0.25000006, y: 0.000000015403812, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 4759273410855368}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000002964373, y: -0.0000008538125, z: -0.0000033846475}
+--- !u!1 &1393126388614498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4859931726271886}
+  m_Layer: 0
+  m_Name: Yolo_LBrowLow_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4859931726271886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393126388614498}
+  m_LocalRotation: {x: 0.0000000035380876, y: -9.1600446e-17, z: -0.000000025889818,
+    w: 1}
+  m_LocalPosition: {x: -0.099999994, y: 0.000000015497207, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4806482509424684}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000004054535, y: -2.0994235e-14, z: -0.0000029668893}
+--- !u!1 &1399862486228536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4899945038729712}
+  m_Layer: 0
+  m_Name: Yolo_RCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4899945038729712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399862486228536}
+  m_LocalRotation: {x: 0.0013838597, y: -0.7933521, z: 0.0010621337, w: 0.6087606}
+  m_LocalPosition: {x: 0.029489746, y: -0.00038582316, z: -0.04999592}
+  m_LocalScale: {x: 1.0000005, y: 0.99999964, z: 1}
+  m_Children:
+  - {fileID: 4215364415406052}
+  m_Father: {fileID: 4764444974733136}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.19307752, y: -105.00007, z: 1.4179509}
+--- !u!1 &1406774428264772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4221647121763392}
+  m_Layer: 0
+  m_Name: Yolo_LForearm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4221647121763392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406774428264772}
+  m_LocalRotation: {x: -0.00008632243, y: 6.431522e-13, z: -0.0000000074505815, w: 1}
+  m_LocalPosition: {x: -0.10000002, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_Children:
+  - {fileID: 4556952344256896}
+  m_Father: {fileID: 4711832175880962}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -2.9509172, y: -0.00000008799725, z: 0.000001709893}
+--- !u!1 &1415082655381482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4110957443802114}
+  m_Layer: 0
+  m_Name: Yolo_LEye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4110957443802114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415082655381482}
+  m_LocalRotation: {x: -0.49912727, y: 0.5008715, z: 0.5008711, w: -0.49912712}
+  m_LocalPosition: {x: -0.12465169, y: 0.14162149, z: 0.099999994}
+  m_LocalScale: {x: 1.000001, y: 0.9999995, z: 1.0000002}
+  m_Children:
+  - {fileID: 4011138805868330}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -1.054981, y: -89.99256, z: -90.24769}
+--- !u!1 &1432141578706620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4869491018871678}
+  m_Layer: 0
+  m_Name: Yolo_LHorn_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4869491018871678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432141578706620}
+  m_LocalRotation: {x: 0, y: -0, z: -0.000000020166857, w: 1}
+  m_LocalPosition: {x: -0.25000015, y: -0.000000009536743, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000005, y: 1.0000001, z: 1.0000006}
+  m_Children: []
+  m_Father: {fileID: 4489040141037658}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.0000023110586}
+--- !u!1 &1465144279050830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4899251301539200}
+  m_Layer: 0
+  m_Name: Prop_InBelly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4899251301539200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465144279050830}
+  m_LocalRotation: {x: -0.0009931533, y: -0.7069399, z: 0.0019076038, w: 0.7072704}
+  m_LocalPosition: {x: 0.05306646, y: 0.02588955, z: -0.0002592945}
+  m_LocalScale: {x: 1.0000045, y: 0.9999939, z: 1.0000014}
+  m_Children: []
+  m_Father: {fileID: 4851308910937948}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.07404144, y: -89.97307, z: 0.23506151}
+--- !u!1 &1466635730804194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4508507374100990}
+  m_Layer: 0
+  m_Name: Prop_Grabbed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4508507374100990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466635730804194}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0.59999996, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4465008117012636}
+  - {fileID: 4880109100410862}
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -88.25145, y: -73.38606, z: -109.155785}
+--- !u!1 &1475127426802060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4692783399514926}
+  m_Layer: 0
+  m_Name: Yolo_RToeMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4692783399514926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475127426802060}
+  m_LocalRotation: {x: 0.0056588477, y: 0.043534335, z: -0.13047422, w: 0.9904793}
+  m_LocalPosition: {x: -0.09999973, y: 0, z: 0.020000152}
+  m_LocalScale: {x: 1.0000012, y: 0.99999887, z: 0.99999976}
+  m_Children: []
+  m_Father: {fileID: 4060253474003416}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.2909535, y: 4.8583627, z: -14.92635}
+--- !u!1 &1487261814307210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4363964696193616}
+  m_Layer: 0
+  m_Name: Yolo_LIKTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4363964696193616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487261814307210}
+  m_LocalRotation: {x: -0.6050891, y: 0.7496887, z: 0.10054445, w: -0.24844483}
+  m_LocalPosition: {x: -0.29434597, y: 0.2020567, z: 0.09354879}
+  m_LocalScale: {x: 0.99999905, y: 1.0000019, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 24.368347, y: -127.75258, z: -50.018}
+--- !u!1 &1487837882223094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4015570161224374}
+  m_Layer: 0
+  m_Name: Yolo_RToePinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4015570161224374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487837882223094}
+  m_LocalRotation: {x: 0.022640767, y: 0.1724461, z: -0.12861946, w: 0.9763231}
+  m_LocalPosition: {x: -0.07607014, y: -0.011768262, z: 0.07879353}
+  m_LocalScale: {x: 1.0000014, y: 0.999999, z: 0.99999934}
+  m_Children: []
+  m_Father: {fileID: 4060253474003416}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 5.0721974, y: 19.39922, z: -14.114545}
+--- !u!1 &1491961022917518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4653283775032932}
+  m_Layer: 0
+  m_Name: Yolo_Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4653283775032932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491961022917518}
+  m_LocalRotation: {x: 0.00000008631884, y: -0.00000017172133, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.049999695, y: -0.00017445325, z: 0.0000000059881495}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 4396316067143504}
+  - {fileID: 4326186982179410}
+  - {fileID: 4487551921466732}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000036092777, y: -0.000021704807, z: -78.8524}
+--- !u!1 &1502773217644102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4851308910937948}
+  m_Layer: 0
+  m_Name: Yolo_Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4851308910937948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502773217644102}
+  m_LocalRotation: {x: -0.000000004443326, y: 0.00000010763748, z: -0.00096423464,
+    w: 0.9999995}
+  m_LocalPosition: {x: -0.15000004, y: 5.9604643e-10, z: 0}
+  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 1}
+  m_Children:
+  - {fileID: 4899251301539200}
+  - {fileID: 4764444974733136}
+  m_Father: {fileID: 4915117857068184}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 5.586447, y: 4.261295, z: -1.414}
+--- !u!1 &1508189322426478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4806482509424684}
+  m_Layer: 0
+  m_Name: Yolo_LBrowLow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4806482509424684
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508189322426478}
+  m_LocalRotation: {x: 0.0009367621, y: 0.5372989, z: 0.8433901, w: 0.0014708652}
+  m_LocalPosition: {x: -0.12462005, y: 0.15068446, z: 0.104226224}
+  m_LocalScale: {x: 1.0000038, y: 0.99999666, z: 0.9999998}
+  m_Children:
+  - {fileID: 4859931726271886}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -61.104946, y: -32.442482, z: -150.9904}
+--- !u!1 &1522525124691876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4297454558738954}
+  m_Layer: 0
+  m_Name: Yolo_LPlatform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4297454558738954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522525124691876}
+  m_LocalRotation: {x: 0.5609856, y: -0.56098545, z: -0.4304593, w: 0.43045938}
+  m_LocalPosition: {x: -0.15000004, y: -0.0000000028024174, z: 0.049999997}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0.00001536793, y: -115, z: -90.00001}
+--- !u!1 &1550212136584024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4295082609749892}
+  m_Layer: 0
+  m_Name: Yolo_MouthSE_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4295082609749892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550212136584024}
+  m_LocalRotation: {x: 0.000000007777676, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.24999996, y: -0.000000011873144, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 4326186982179410}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000089129696, y: 0, z: 0}
+--- !u!1 &1555144678008794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4884393179918584}
+  m_Layer: 0
+  m_Name: Yolo_RThigh2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4884393179918584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555144678008794}
+  m_LocalRotation: {x: -0.00012207776, y: -0.0000000037252903, z: -4.547751e-13, w: 1}
+  m_LocalPosition: {x: -0.09999998, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4540415120562224}
+  m_Father: {fileID: 4017047175887304}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.013990201, y: -2.117368e-10, z: 0.00000085381276}
+--- !u!1 &1580603648931100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4036104821916372}
+  m_Layer: 0
+  m_Name: Yolo_RUpperarm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4036104821916372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580603648931100}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.099999994, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4222463874573494}
+  m_Father: {fileID: 4215364415406052}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000025614445, y: -1.9554136e-11, z: -0.0000017076263}
+--- !u!1 &1582861104239478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4897204761383628}
+  m_Layer: 0
+  m_Name: Yolo_RHorn_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4897204761383628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582861104239478}
+  m_LocalRotation: {x: 0, y: -0, z: -0.000000020166857, w: 1}
+  m_LocalPosition: {x: -0.25000015, y: -0.000000009536743, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000005, y: 1.0000001, z: 1.0000006}
+  m_Children: []
+  m_Father: {fileID: 4679918485486946}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.0000023110586}
+--- !u!1 &1587357171781184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4465008117012636}
+  - component: {fileID: 33619156860484908}
+  - component: {fileID: 23235987240159432}
+  - component: {fileID: 95303054250194696}
+  m_Layer: 0
+  m_Name: Prop_Apple
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4465008117012636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587357171781184}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: -0.108}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4508507374100990}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!33 &33619156860484908
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587357171781184}
+  m_Mesh: {fileID: 4300000, guid: 06e10252f52fb4e49bb8eb9f70ed9d34, type: 3}
+--- !u!23 &23235987240159432
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587357171781184}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 07cc15634d0d26a44ba9704ecb041274, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!95 &95303054250194696
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587357171781184}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 06e10252f52fb4e49bb8eb9f70ed9d34, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1591743778479182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4034213516251124}
+  m_Layer: 0
+  m_Name: Yolo_LUpperarm2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4034213516251124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591743778479182}
+  m_LocalRotation: {x: 0.000000007450581, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.09999998, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4711832175880962}
+  m_Father: {fileID: 4538768723503612}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000012807084, y: -0.000001707614, z: 0.0000008538192}
+--- !u!1 &1603351982506258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4980207262901590}
+  m_Layer: 0
+  m_Name: Yolo_RBrowLow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4980207262901590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603351982506258}
+  m_LocalRotation: {x: 0.0014706568, y: 0.84339, z: 0.53729904, w: 0.00093684136}
+  m_LocalPosition: {x: -0.12461996, y: 0.15068452, z: -0.10422615}
+  m_LocalScale: {x: 1.0000014, y: 1, z: 0.9999982}
+  m_Children:
+  - {fileID: 4091520096975670}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: -63.215904, y: -157.37877, z: -20.318867}
+--- !u!1 &1603809947565918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4060253474003416}
+  m_Layer: 0
+  m_Name: Yolo_RFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4060253474003416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603809947565918}
+  m_LocalRotation: {x: 0.019098094, y: -0.062195696, z: -0.803288, w: 0.59202653}
+  m_LocalPosition: {x: -0.10000002, y: 0.000000007152557, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000103, y: 0.9999903, z: 0.9999998}
+  m_Children:
+  - {fileID: 4692783399514926}
+  - {fileID: 4015570161224374}
+  - {fileID: 4620594920514128}
+  m_Father: {fileID: 4304218470645918}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -5.33794, y: -9.748752, z: -110.88126}
+--- !u!1 &1605762807961376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4829983577565388}
+  m_Layer: 0
+  m_Name: Yolo_LPinky1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4829983577565388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605762807961376}
+  m_LocalRotation: {x: -0.14519458, y: -0.14519416, z: 0.111410506, w: 0.9723297}
+  m_LocalPosition: {x: -0.082500115, y: 0.009659043, z: -0.040670138}
+  m_LocalScale: {x: 0.9999991, y: 0.99999726, z: 1.0000036}
+  m_Children:
+  - {fileID: 4776279794314818}
+  m_Father: {fileID: 4556952344256896}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -14.686533, y: -16.897118, z: 10.221756}
+--- !u!1 &1620993957774648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4757720449284722}
+  m_Layer: 0
+  m_Name: Yolo_LCalf2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4757720449284722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620993957774648}
+  m_LocalRotation: {x: -0.032559354, y: -0.000000004208487, z: 0.000000014771966,
+    w: 0.9994698}
+  m_LocalPosition: {x: -0.10000002, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 4061308014912668}
+  m_Father: {fileID: 4148303105907406}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -4.016032, y: 0.00000073391533, z: 0.0000017118285}
+--- !u!1 &1624157435833046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4374313788156168}
+  m_Layer: 0
+  m_Name: Yolo_REye_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4374313788156168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624157435833046}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.10000005, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000006, y: 0.9999999, z: 0.99999887}
+  m_Children: []
+  m_Father: {fileID: 4618122762586562}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1628404045389690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4679918485486946}
+  m_Layer: 0
+  m_Name: Yolo_RHorn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4679918485486946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628404045389690}
+  m_LocalRotation: {x: -0.48380476, y: -0.48211974, z: 0.36949173, w: 0.6300551}
+  m_LocalPosition: {x: -0.25524384, y: -0.027923878, z: -0.14999999}
+  m_LocalScale: {x: 0.99999726, y: 1.0000025, z: 1.0000002}
+  m_Children:
+  - {fileID: 4897204761383628}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -22.409653, y: -83.764366, z: 73.801254}
+--- !u!1 &1630894256261396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4540415120562224}
+  m_Layer: 0
+  m_Name: Yolo_RCalf1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4540415120562224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630894256261396}
+  m_LocalRotation: {x: -0.0000976224, y: 0.00028444832, z: 0.44808912, w: 0.8939889}
+  m_LocalPosition: {x: -0.10000025, y: 0.000000009536743, z: 0.000000095367426}
+  m_LocalScale: {x: 1.0000033, y: 0.99999624, z: 1}
+  m_Children:
+  - {fileID: 4304218470645918}
+  m_Father: {fileID: 4884393179918584}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.021331584, y: 0.021014338, z: 45.874}
+--- !u!1 &1663496202738378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4396316067143504}
+  m_Layer: 0
+  m_Name: Yolo_MouthS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4396316067143504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663496202738378}
+  m_LocalRotation: {x: 0.706379, y: -0.032075472, z: -0.032075383, w: 0.70637894}
+  m_LocalPosition: {x: 0.028764753, y: -0.014226003, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000013, y: 0.9999993, z: 1.0000002}
+  m_Children:
+  - {fileID: 4527661836916944}
+  m_Father: {fileID: 4653283775032932}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 84.80027, y: -90.00005, z: -90.00005}
+--- !u!1 &1668076423096630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4941104332546306}
+  m_Layer: 0
+  m_Name: Yolo_LThigh1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4941104332546306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668076423096630}
+  m_LocalRotation: {x: -0.17154205, y: 0.978093, z: 0.09782666, w: 0.06585802}
+  m_LocalPosition: {x: -0, y: -0.00000022649765, z: 0.09999991}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_Children:
+  - {fileID: 4945939213153834}
+  m_Father: {fileID: 4451161317646676}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -25.388254, y: 176.14009, z: -17.9506}
+--- !u!1 &1670004530859502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4489040141037658}
+  m_Layer: 0
+  m_Name: Yolo_LHorn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4489040141037658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670004530859502}
+  m_LocalRotation: {x: 0.63005495, y: 0.36949182, z: -0.48211938, w: -0.4838052}
+  m_LocalPosition: {x: -0.2552437, y: -0.027923755, z: 0.15000015}
+  m_LocalScale: {x: 0.99999905, y: 1.0000012, z: 0.9999997}
+  m_Children:
+  - {fileID: 4869491018871678}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -20.866842, y: -95.76742, z: 106.05301}
+--- !u!1 &1708637382239734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4626321014396224}
+  m_Layer: 0
+  m_Name: Yolo_LBrowUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4626321014396224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708637382239734}
+  m_LocalRotation: {x: 0.84338975, y: -0.0014717273, z: -0.00093664817, w: 0.5372996}
+  m_LocalPosition: {x: -0.124572635, y: 0.16427918, z: 0.110565566}
+  m_LocalScale: {x: 0.9999972, y: 1.0000025, z: 1.0000006}
+  m_Children:
+  - {fileID: 4465982868683000}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 35.28792, y: -109.36124, z: -121.17887}
+--- !u!1 &1711507571334588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4915117857068184}
+  m_Layer: 0
+  m_Name: Yolo_Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4915117857068184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711507571334588}
+  m_LocalRotation: {x: 0.000000003406198, y: -0.000000089176645, z: 0.0045155734,
+    w: 0.9999898}
+  m_LocalPosition: {x: -0.029660491, y: 0.00391303, z: -0.000000011793186}
+  m_LocalScale: {x: 1.0000005, y: 1.0000006, z: 1.0000001}
+  m_Children:
+  - {fileID: 4851308910937948}
+  m_Father: {fileID: 4451161317646676}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 1.5506601, y: -1.7259756, z: -0.11082268}
+--- !u!1 &1725479826854868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4130304382728760}
+  m_Layer: 0
+  m_Name: Yolo_LToeMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4130304382728760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725479826854868}
+  m_LocalRotation: {x: -0.0057624932, y: -0.042689715, z: -0.13029669, w: 0.99053884}
+  m_LocalPosition: {x: -0.09999967, y: 0, z: -0.020000134}
+  m_LocalScale: {x: 1.0000013, y: 0.99999887, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4061308014912668}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.289281, y: -4.764018, z: -14.905975}
+--- !u!1 &1744953279650738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4091520096975670}
+  m_Layer: 0
+  m_Name: Yolo_RBrowLow_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4091520096975670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744953279650738}
+  m_LocalRotation: {x: 0.0000000127189415, y: -0.000000007450583, z: -0.000000012718939,
+    w: 1}
+  m_LocalPosition: {x: -0.099999994, y: 0.000000009536743, z: 0}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.9999997}
+  m_Children: []
+  m_Father: {fileID: 4980207262901590}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000014575497, y: -0.0000008538137, z: -0.0000014575509}
+--- !u!1 &1755831542141556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4903374686002872}
+  m_Layer: 0
+  m_Name: Yolo_Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4903374686002872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755831542141556}
+  m_LocalRotation: {x: 0.000000003107209, y: -0.00000000322534, z: -0.13052535, w: 0.991445}
+  m_LocalPosition: {x: 0.029654464, y: -0.010385154, z: -0.000000009589639}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4170881060092034}
+  m_Father: {fileID: 4764444974733136}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2.265095, y: -1.5490462, z: -13.301823}
+--- !u!1 &1783819677624592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4191036527852206}
+  m_Layer: 0
+  m_Name: Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4191036527852206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783819677624592}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1784809367711508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4538768723503612}
+  m_Layer: 0
+  m_Name: Yolo_LUpperarm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4538768723503612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784809367711508}
+  m_LocalRotation: {x: 0.103781246, y: 0.35528564, z: 0.15353328, w: 0.9162036}
+  m_LocalPosition: {x: -0.14999999, y: 1.4901161e-10, z: 0}
+  m_LocalScale: {x: 0.9999996, y: 1.000001, z: 0.9999992}
+  m_Children:
+  - {fileID: 4034213516251124}
+  m_Father: {fileID: 4386366360005064}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 25.323278, y: 45.185997, z: -2.2614093}
+--- !u!1 &1787019418345420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4487551921466732}
+  m_Layer: 0
+  m_Name: Yolo_MouthSW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4487551921466732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787019418345420}
+  m_LocalRotation: {x: 0.7007896, y: -0.1542688, z: 0.091091685, w: 0.6905052}
+  m_LocalPosition: {x: 0.028764753, y: -0.014226003, z: -0.000000076293944}
+  m_LocalScale: {x: 0.99999684, y: 1.0000005, z: 1.0000033}
+  m_Children:
+  - {fileID: 4635453826313906}
+  m_Father: {fileID: 4653283775032932}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 84.196594, y: -109.32426, z: -89.385544}
+--- !u!1 &1793364806939094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519145788880604}
+  m_Layer: 0
+  m_Name: Yolo_RIKTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519145788880604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793364806939094}
+  m_LocalRotation: {x: -0.10786478, y: -0.17049329, z: -0.6767344, w: 0.7080451}
+  m_LocalPosition: {x: 0.2836204, y: 0.2220729, z: 0.0715678}
+  m_LocalScale: {x: 1.0000033, y: 0.99999857, z: 1.0000004}
+  m_Children: []
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -49.090496, y: -26.16983, z: -76.325226}
+--- !u!1 &1811415400647582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933704703875736}
+  m_Layer: 0
+  m_Name: Yolo_RBrowUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4933704703875736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811415400647582}
+  m_LocalRotation: {x: 0.53729844, y: -0.0009374324, z: -0.0014712275, w: 0.8433904}
+  m_LocalPosition: {x: -0.12457252, y: 0.16427918, z: -0.11056549}
+  m_LocalScale: {x: 1.0000029, y: 0.99999815, z: 1.0000004}
+  m_Children:
+  - {fileID: 4311970977762310}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 26.625248, y: -76.3887, z: -61.788647}
+--- !u!1 &1811925777360108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4355381970680706}
+  m_Layer: 0
+  m_Name: Yolo_MouthE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355381970680706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811925777360108}
+  m_LocalRotation: {x: -0.62664104, y: 0.32759938, z: 0.6277797, w: -0.3254111}
+  m_LocalPosition: {x: 0.03577389, y: -0.028939124, z: 0.000000076293944}
+  m_LocalScale: {x: 0.99999964, y: 1.0000008, z: 1.0000001}
+  m_Children:
+  - {fileID: 4181206313714180}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 33.065285, y: -29.015278, z: -104.03397}
+--- !u!1 &1813447989153666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4618122762586562}
+  m_Layer: 0
+  m_Name: Yolo_REye
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4618122762586562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813447989153666}
+  m_LocalRotation: {x: -0.49912727, y: 0.5008715, z: 0.5008711, w: -0.49912712}
+  m_LocalPosition: {x: -0.12465175, y: 0.14162154, z: -0.09999992}
+  m_LocalScale: {x: 1.000001, y: 0.9999995, z: 1.0000002}
+  m_Children:
+  - {fileID: 4374313788156168}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: -1.054981, y: -89.99256, z: -90.24769}
+--- !u!1 &1818079023535848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4776279794314818}
+  m_Layer: 0
+  m_Name: Yolo_LPinky2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4776279794314818
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818079023535848}
+  m_LocalRotation: {x: -0.0000008588163, y: -0.000000623504, z: 0.25881884, w: 0.9659259}
+  m_LocalPosition: {x: -0.06, y: 0, z: -0.000000009536743}
+  m_LocalScale: {x: 0.9999969, y: 0.9999998, z: 1.0000036}
+  m_Children: []
+  m_Father: {fileID: 4829983577565388}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00008450913, y: -0.000076092714, z: 21.796276}
+--- !u!1 &1818144637460894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4304218470645918}
+  m_Layer: 0
+  m_Name: Yolo_RCalf2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4304218470645918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818144637460894}
+  m_LocalRotation: {x: 0.03224334, y: 4.804632e-10, z: 0.000000014893414, w: 0.99948007}
+  m_LocalPosition: {x: -0.10000001, y: -0.0000000047683715, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_Children:
+  - {fileID: 4060253474003416}
+  m_Father: {fileID: 4540415120562224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 8.871174, y: 0.00000026653845, z: 0.0000017283124}
+--- !u!1 &1830905888657696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4386366360005064}
+  m_Layer: 0
+  m_Name: Yolo_LCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4386366360005064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830905888657696}
+  m_LocalRotation: {x: -0.0013837784, y: 0.79335207, z: 0.001062028, w: 0.6087606}
+  m_LocalPosition: {x: 0.029489746, y: -0.00038582328, z: 0.049995918}
+  m_LocalScale: {x: 0.99999964, y: 1.0000005, z: 1}
+  m_Children:
+  - {fileID: 4538768723503612}
+  m_Father: {fileID: 4764444974733136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.8982911, y: 101.33162, z: -0.6457224}
+--- !u!1 &1835204958713666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4702989294330224}
+  m_Layer: 0
+  m_Name: Yolo_MouthNE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4702989294330224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835204958713666}
+  m_LocalRotation: {x: 0.60326535, y: -0.3885556, z: -0.5541478, w: 0.42191914}
+  m_LocalPosition: {x: 0.03577389, y: -0.028939124, z: 0.000000076293944}
+  m_LocalScale: {x: 0.99999857, y: 0.99999994, z: 1.000002}
+  m_Children:
+  - {fileID: 4596645979144744}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 4.4979815, y: -91.71346, z: -110.06428}
+--- !u!1 &1836513248666302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4810230078098008}
+  m_Layer: 0
+  m_Name: Yolo_MouthN_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4810230078098008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836513248666302}
+  m_LocalRotation: {x: 0.000000024511149, y: -3.7213424e-16, z: -0.000000015182245,
+    w: 1}
+  m_LocalPosition: {x: -0.24999997, y: 0.0000000062415255, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4992203351879526}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000028088978, y: -8.5290756e-14, z: -0.0000017398385}
+--- !u!1 &1843766386491040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4148303105907406}
+  m_Layer: 0
+  m_Name: Yolo_LCalf1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4148303105907406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843766386491040}
+  m_LocalRotation: {x: 0.000006450012, y: 0.00006694065, z: 0.4481389, w: 0.89396393}
+  m_LocalPosition: {x: -0.10000022, y: -0.000000019073486, z: -0.000000104904174}
+  m_LocalScale: {x: 1.0000037, y: 0.9999962, z: 0.9999998}
+  m_Children:
+  - {fileID: 4757720449284722}
+  m_Father: {fileID: 4945939213153834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0021390547, y: 0.0066913976, z: 52.92906}
+--- !u!1 &1869709338475350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4874131753930868}
+  m_Layer: 0
+  m_Name: Yolo_RPlatform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4874131753930868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869709338475350}
+  m_LocalRotation: {x: 0.43045938, y: -0.4304593, z: -0.56098545, w: 0.5609856}
+  m_LocalPosition: {x: 0.15000002, y: -0.0000000028024254, z: 0.050000045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4801800768391532}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0.000013660304, y: -60, z: -89.999985}
+--- !u!1 &1883368000756258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4711832175880962}
+  m_Layer: 0
+  m_Name: Yolo_LForearm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4711832175880962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883368000756258}
+  m_LocalRotation: {x: 0.0000688829, y: -0.000025629572, z: -0.3826898, w: 0.92387694}
+  m_LocalPosition: {x: -0.099999994, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999986, y: 1.0000045, z: 0.9999969}
+  m_Children:
+  - {fileID: 4221647121763392}
+  m_Father: {fileID: 4034213516251124}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.004931904, y: -0.006847644, z: -56.266575}
+--- !u!1 &1923881501131632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4366022410023420}
+  m_Layer: 0
+  m_Name: Yolo_LIndex1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4366022410023420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923881501131632}
+  m_LocalRotation: {x: -0.00000005960483, y: 0.000000014901175, z: -0.00000008940702,
+    w: 1}
+  m_LocalPosition: {x: -0.09999975, y: 0.010000114, z: 0.039999552}
+  m_LocalScale: {x: 0.9999994, y: 0.9999969, z: 1.0000035}
+  m_Children:
+  - {fileID: 4807420140219930}
+  m_Father: {fileID: 4556952344256896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.08910614, y: -1.3369958, z: -3.8122203}
+--- !u!1 &1939814882578166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4728465253343074}
+  m_Layer: 0
+  m_Name: Yolo_RIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4728465253343074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939814882578166}
+  m_LocalRotation: {x: 0.0000007732166, y: 0.0000007162663, z: 0.2588195, w: 0.96592575}
+  m_LocalPosition: {x: -0.06, y: 0.000000038146972, z: 0.0000000047683715}
+  m_LocalScale: {x: 1.0000037, y: 1.0000006, z: 0.99999636}
+  m_Children: []
+  m_Father: {fileID: 4044864789349444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000014674811, y: 0.00011321964, z: 71.20337}
+--- !u!1 &1944427493707708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4527661836916944}
+  m_Layer: 0
+  m_Name: Yolo_MouthS_Nub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4527661836916944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944427493707708}
+  m_LocalRotation: {x: 0.000000057166954, y: -0.00000006705522, z: 3.833343e-15, w: 1}
+  m_LocalPosition: {x: -0.25000003, y: -0.0000000086596215, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 4396316067143504}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.000006551147, y: -0.000007683612, z: 4.853363e-20}
+--- !u!1 &1953474429241614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4043651558442894}
+  m_Layer: 0
+  m_Name: Yolo_RThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4043651558442894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953474429241614}
+  m_LocalRotation: {x: 0.0000005890262, y: -0.00000042067194, z: 0.2588215, w: 0.96592516}
+  m_LocalPosition: {x: -0.04999998, y: 0, z: 0.000000038146972}
+  m_LocalScale: {x: 1.0000058, y: 0.9999937, z: 1.0000012}
+  m_Children: []
+  m_Father: {fileID: 4605927016435350}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00008249603, y: -0.00000080281825, z: 47.168095}
+--- !u!1 &1967517439115480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4807420140219930}
+  m_Layer: 0
+  m_Name: Yolo_LIndex2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4807420140219930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967517439115480}
+  m_LocalRotation: {x: -0.00000085046656, y: -0.00000058269956, z: 0.25881884, w: 0.9659259}
+  m_LocalPosition: {x: -0.06, y: -0.000000038146972, z: 0.0000000047683715}
+  m_LocalScale: {x: 0.9999968, y: 0.9999995, z: 1.0000037}
+  m_Children: []
+  m_Father: {fileID: 4366022410023420}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000780951, y: -0.00007775524, z: 22.084356}
+--- !u!1 &1971076878672502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4759273410855368}
+  m_Layer: 0
+  m_Name: Yolo_MouthNW
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4759273410855368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971076878672502}
+  m_LocalRotation: {x: 0.42191905, y: -0.5541481, z: -0.38855517, w: 0.6032654}
+  m_LocalPosition: {x: 0.03577389, y: -0.028939124, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000012, y: 0.99999934, z: 0.9999992}
+  m_Children:
+  - {fileID: 4647474050726046}
+  m_Father: {fileID: 4170881060092034}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 4.497992, y: -88.28656, z: -69.93566}
+--- !u!1 &1981198569841918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4222463874573494}
+  m_Layer: 0
+  m_Name: Yolo_RForearm1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4222463874573494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981198569841918}
+  m_LocalRotation: {x: -0.0000688605, y: 0.000025588117, z: -0.38269067, w: 0.9238766}
+  m_LocalPosition: {x: -0.099999994, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000017, y: 0.9999952, z: 1.000003}
+  m_Children:
+  - {fileID: 4893617709521642}
+  m_Father: {fileID: 4036104821916372}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.004557186, y: 0.007089376, z: -59.286644}

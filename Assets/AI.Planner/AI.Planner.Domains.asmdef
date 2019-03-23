@@ -1,0 +1,17 @@
+{
+    "name": "AI.Planner.Domains",
+    "references": [
+        "Unity.AI.Planner",
+        "Unity.Properties",
+        "Unity.Entities"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

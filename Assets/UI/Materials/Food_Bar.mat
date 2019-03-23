@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Food_Bar
+  m_Shader: {fileID: 4800000, guid: 21236a10d4d18644498650c335daab47, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Amount:
+        m_Texture: {fileID: 2800000, guid: 785d5667bf78b494bbee91c4d702eab3, type: 3}
+        m_Scale: {x: 1, y: 0.25}
+        m_Offset: {x: 0, y: 0.75}
+    - _Texture_Masks:
+        m_Texture: {fileID: 2800000, guid: 2612a0b6893d8df4fb8e1ec2ff23b15a, type: 3}
+        m_Scale: {x: 1, y: 0.25}
+        m_Offset: {x: 0, y: 0.75}
+    m_Floats:
+    - PixelSnap: 0
+    - _Amount: 0.8041182
+    - _Cutoff: 0.5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilOpFail: 0
+    - _StencilOpZFail: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Test: 0
+    m_Colors:
+    - _Color: {r: 0.2509804, g: 0.7529412, b: 0, a: 1}

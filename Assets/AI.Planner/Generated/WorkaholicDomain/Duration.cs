@@ -1,74 +1,49 @@
-#if (NET_4_6 || NET_STANDARD_2_0)
 using System;
-using System.Collections.Generic;
 using Unity.AI.Planner;
-using Unity.Properties;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
+using Unity.Entities;
 
 namespace WorkaholicDomain
 {
-    public partial struct Duration : IStructPropertyContainer<Duration>
+    [Serializable]
+    public partial struct Duration : ITrait<Duration>, IEquatable<Duration>
     {
-        public static ValueStructProperty<Duration, System.Int64> TimeProperty { get; private set; }
+        public System.Int64 Time;
 
-        private static StructPropertyBag<Duration> s_PropertyBag { get; set; }
-
-        /// <inheritdoc cref="Unity.Properties.IPropertyContainer.PropertyBag" />
-        public IPropertyBag PropertyBag => s_PropertyBag;
-        /// <inheritdoc cref="Unity.Properties.IPropertyContainer.VersionStorage" />
-        public IVersionStorage VersionStorage => null;
-
-        private static void InitializeProperties()
+        public bool Equals(Duration other)
         {
-            TimeProperty = new ValueStructProperty<Duration, System.Int64>(
-                "Time"
-                ,(ref Duration c) => c.m_Time
-                ,(ref Duration c, System.Int64 v) => c.m_Time = v
-            );
+            return Time == other.Time;
         }
 
-        static partial void InitializeCustomProperties();
-
-        private static void InitializePropertyBag()
+        public override int GetHashCode()
         {
-            s_PropertyBag = new StructPropertyBag<Duration>(
-                TimeProperty
-            );
+            return 397
+                ^ Time.GetHashCode();
         }
 
-        static Duration()
+        public object Clone() { return MemberwiseClone(); }
+
+        public void SetField(string fieldName, object value)
         {
-            InitializeProperties();
-            InitializeCustomProperties();
-            InitializePropertyBag();
+            switch (fieldName)
+            {
+                case nameof(Time):
+                    Time = (System.Int64)value;
+                    break;
+            }
         }
 
-        public System.Int64 Time
+        public void SetComponentData(EntityManager entityManager, Entity domainObjectEntity)
         {
-            get { return TimeProperty.GetValue(ref this); }
-            set { TimeProperty.SetValue(ref this, value); }
+            SetTraitMask(entityManager, domainObjectEntity);
+            entityManager.SetComponentData(domainObjectEntity, this);
         }
 
-
-        /// <summary>
-        /// Pass this object as a reference to the given handler.
-        /// </summary>
-        /// <param name="byRef">Handler to invoke.</param>
-        /// <param name="context">Context argument passed to the handler.</param>
-        public void MakeRef<TContext>(ByRef<Duration, TContext> byRef, TContext context)
+        public void SetTraitMask(EntityManager entityManager, Entity domainObjectEntity)
         {
-            byRef(ref this, context);
-        }
-
-        /// <summary>
-        /// Pass this object as a reference to the given handler, and return the result.
-        /// </summary>
-        /// <param name="byRef">Handler to invoke.</param>
-        /// <param name="context">Context argument passed to the handler.</param>
-        /// <returns>The handler's return value.</returns>
-        public TReturn MakeRef<TContext, TReturn>(ByRef<Duration, TContext, TReturn> byRef, TContext context)
-        {
-            return byRef(ref this, context);
+            var objectHash = entityManager.GetComponentData<HashCode>(domainObjectEntity);
+            objectHash.TraitMask = objectHash.TraitMask | (uint)TraitMask.Duration;
+            entityManager.SetComponentData(domainObjectEntity, objectHash);
         }
     }
 }
-#endif // (NET_4_6 || NET_STANDARD_2_0)

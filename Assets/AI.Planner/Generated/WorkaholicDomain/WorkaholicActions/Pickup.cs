@@ -166,7 +166,7 @@ namespace WorkaholicDomain.WorkaholicActions
             var dispenserEntity = GetEntity(domainObjectBuffer, permutation.dispenserIndex, stateCopyEntity);
             var inventoryEntity = GetEntity(domainObjectBuffer, permutation.inventoryIndex, stateCopyEntity);
             var timeEntity = GetEntity(domainObjectBuffer, permutation.timeIndex, stateCopyEntity);
-
+            
             {
                 var @inventory = Inventorys[inventoryEntity];
                 var hash = objectHashes[inventoryEntity];
@@ -176,7 +176,7 @@ namespace WorkaholicDomain.WorkaholicActions
                 hash.Value += @inventory.GetHashCode();
                 objectHashes[inventoryEntity] = hash;
             }
-
+            
             {
                 var @time = Times[timeEntity];
                 var hash = objectHashes[timeEntity];

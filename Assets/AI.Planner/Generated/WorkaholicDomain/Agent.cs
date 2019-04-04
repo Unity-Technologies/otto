@@ -1,59 +1,41 @@
-#if (NET_4_6 || NET_STANDARD_2_0)
 using System;
-using System.Collections.Generic;
 using Unity.AI.Planner;
-using Unity.Properties;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
+using Unity.Entities;
 
 namespace WorkaholicDomain
 {
-    public partial struct Agent : IStructPropertyContainer<Agent>
+    [Serializable]
+    public partial struct Agent : ITrait<Agent>, IEquatable<Agent>
     {
-        private static StructPropertyBag<Agent> s_PropertyBag { get; set; }
 
-        /// <inheritdoc cref="Unity.Properties.IPropertyContainer.PropertyBag" />
-        public IPropertyBag PropertyBag => s_PropertyBag;
-        /// <inheritdoc cref="Unity.Properties.IPropertyContainer.VersionStorage" />
-        public IVersionStorage VersionStorage => null;
+        public bool Equals(Agent other)
+        {
+            return true;
+        }
 
-        private static void InitializeProperties()
+        public override int GetHashCode()
+        {
+            return GetType().GetHashCode();
+        }
+
+        public object Clone() { return MemberwiseClone(); }
+
+        public void SetField(string fieldName, object value)
         {
         }
 
-        static partial void InitializeCustomProperties();
-
-        private static void InitializePropertyBag()
+        public void SetComponentData(EntityManager entityManager, Entity domainObjectEntity)
         {
-            s_PropertyBag = new StructPropertyBag<Agent>();
+            SetTraitMask(entityManager, domainObjectEntity);
+            entityManager.SetComponentData(domainObjectEntity, this);
         }
 
-        static Agent()
+        public void SetTraitMask(EntityManager entityManager, Entity domainObjectEntity)
         {
-            InitializeProperties();
-            InitializeCustomProperties();
-            InitializePropertyBag();
-        }
-
-
-        /// <summary>
-        /// Pass this object as a reference to the given handler.
-        /// </summary>
-        /// <param name="byRef">Handler to invoke.</param>
-        /// <param name="context">Context argument passed to the handler.</param>
-        public void MakeRef<TContext>(ByRef<Agent, TContext> byRef, TContext context)
-        {
-            byRef(ref this, context);
-        }
-
-        /// <summary>
-        /// Pass this object as a reference to the given handler, and return the result.
-        /// </summary>
-        /// <param name="byRef">Handler to invoke.</param>
-        /// <param name="context">Context argument passed to the handler.</param>
-        /// <returns>The handler's return value.</returns>
-        public TReturn MakeRef<TContext, TReturn>(ByRef<Agent, TContext, TReturn> byRef, TContext context)
-        {
-            return byRef(ref this, context);
+            var objectHash = entityManager.GetComponentData<HashCode>(domainObjectEntity);
+            objectHash.TraitMask = objectHash.TraitMask | (uint)TraitMask.Agent;
+            entityManager.SetComponentData(domainObjectEntity, objectHash);
         }
     }
 }
-#endif // (NET_4_6 || NET_STANDARD_2_0)

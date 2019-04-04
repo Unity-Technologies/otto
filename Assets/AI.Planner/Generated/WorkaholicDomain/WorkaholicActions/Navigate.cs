@@ -135,7 +135,7 @@ namespace WorkaholicDomain.WorkaholicActions
             var agentEntity = GetEntity(domainObjectBuffer, permutation.agentIndex, stateCopyEntity);
             var toEntity = GetEntity(domainObjectBuffer, permutation.toIndex, stateCopyEntity);
             var timeEntity = GetEntity(domainObjectBuffer, permutation.timeIndex, stateCopyEntity);
-
+            
             {
                 var @agent = Locations[agentEntity];
                 var hash = objectHashes[agentEntity];

@@ -1,74 +1,49 @@
-#if (NET_4_6 || NET_STANDARD_2_0)
 using System;
-using System.Collections.Generic;
 using Unity.AI.Planner;
-using Unity.Properties;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
+using Unity.Entities;
 
 namespace WorkaholicDomain
 {
-    public partial struct Dispenser : IStructPropertyContainer<Dispenser>
+    [Serializable]
+    public partial struct Dispenser : ITrait<Dispenser>, IEquatable<Dispenser>
     {
-        public static ValueStructProperty<Dispenser, ConsumableType> ConsumableTypeProperty { get; private set; }
+        public ConsumableType ConsumableType;
 
-        private static StructPropertyBag<Dispenser> s_PropertyBag { get; set; }
-
-        /// <inheritdoc cref="Unity.Properties.IPropertyContainer.PropertyBag" />
-        public IPropertyBag PropertyBag => s_PropertyBag;
-        /// <inheritdoc cref="Unity.Properties.IPropertyContainer.VersionStorage" />
-        public IVersionStorage VersionStorage => null;
-
-        private static void InitializeProperties()
+        public bool Equals(Dispenser other)
         {
-            ConsumableTypeProperty = new ValueStructProperty<Dispenser, ConsumableType>(
-                "ConsumableType"
-                ,(ref Dispenser c) => c.m_ConsumableType
-                ,(ref Dispenser c, ConsumableType v) => c.m_ConsumableType = v
-            );
+            return ConsumableType == other.ConsumableType;
         }
 
-        static partial void InitializeCustomProperties();
-
-        private static void InitializePropertyBag()
+        public override int GetHashCode()
         {
-            s_PropertyBag = new StructPropertyBag<Dispenser>(
-                ConsumableTypeProperty
-            );
+            return 397
+                ^ ConsumableType.GetHashCode();
         }
 
-        static Dispenser()
+        public object Clone() { return MemberwiseClone(); }
+
+        public void SetField(string fieldName, object value)
         {
-            InitializeProperties();
-            InitializeCustomProperties();
-            InitializePropertyBag();
+            switch (fieldName)
+            {
+                case nameof(ConsumableType):
+                    ConsumableType = (ConsumableType)Enum.ToObject(typeof(ConsumableType), value);
+                    break;
+            }
         }
 
-        public ConsumableType ConsumableType
+        public void SetComponentData(EntityManager entityManager, Entity domainObjectEntity)
         {
-            get { return ConsumableTypeProperty.GetValue(ref this); }
-            set { ConsumableTypeProperty.SetValue(ref this, value); }
+            SetTraitMask(entityManager, domainObjectEntity);
+            entityManager.SetComponentData(domainObjectEntity, this);
         }
 
-
-        /// <summary>
-        /// Pass this object as a reference to the given handler.
-        /// </summary>
-        /// <param name="byRef">Handler to invoke.</param>
-        /// <param name="context">Context argument passed to the handler.</param>
-        public void MakeRef<TContext>(ByRef<Dispenser, TContext> byRef, TContext context)
+        public void SetTraitMask(EntityManager entityManager, Entity domainObjectEntity)
         {
-            byRef(ref this, context);
-        }
-
-        /// <summary>
-        /// Pass this object as a reference to the given handler, and return the result.
-        /// </summary>
-        /// <param name="byRef">Handler to invoke.</param>
-        /// <param name="context">Context argument passed to the handler.</param>
-        /// <returns>The handler's return value.</returns>
-        public TReturn MakeRef<TContext, TReturn>(ByRef<Dispenser, TContext, TReturn> byRef, TContext context)
-        {
-            return byRef(ref this, context);
+            var objectHash = entityManager.GetComponentData<HashCode>(domainObjectEntity);
+            objectHash.TraitMask = objectHash.TraitMask | (uint)TraitMask.Dispenser;
+            entityManager.SetComponentData(domainObjectEntity, objectHash);
         }
     }
 }
-#endif // (NET_4_6 || NET_STANDARD_2_0)

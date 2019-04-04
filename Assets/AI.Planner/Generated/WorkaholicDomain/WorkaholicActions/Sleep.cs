@@ -162,7 +162,7 @@ namespace WorkaholicDomain.WorkaholicActions
             var bedEntity = GetEntity(domainObjectBuffer, permutation.bedIndex, stateCopyEntity);
             var timeEntity = GetEntity(domainObjectBuffer, permutation.timeIndex, stateCopyEntity);
             var fatigueEntity = GetEntity(domainObjectBuffer, permutation.fatigueIndex, stateCopyEntity);
-
+            
             {
                 var @fatigue = Needs[fatigueEntity];
                 var hash = objectHashes[fatigueEntity];
@@ -172,7 +172,7 @@ namespace WorkaholicDomain.WorkaholicActions
                 hash.Value += @fatigue.GetHashCode();
                 objectHashes[fatigueEntity] = hash;
             }
-
+            
             {
                 var @time = Times[timeEntity];
                 var hash = objectHashes[timeEntity];

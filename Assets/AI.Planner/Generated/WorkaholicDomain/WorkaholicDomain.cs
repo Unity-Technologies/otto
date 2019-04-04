@@ -102,15 +102,15 @@ namespace WorkaholicDomain
         {
             base.OnCreateManager();
 
-            WorkstationTrait = ComponentType.Create<Workstation>();
-            BedTrait = ComponentType.Create<Bed>();
-            DispenserTrait = ComponentType.Create<Dispenser>();
-            InventoryTrait = ComponentType.Create<Inventory>();
-            NeedTrait = ComponentType.Create<Need>();
-            TimeTrait = ComponentType.Create<Time>();
-            AgentTrait = ComponentType.Create<Agent>();
-            DurationTrait = ComponentType.Create<Duration>();
-            LocationTrait = ComponentType.Create<Location>();
+            WorkstationTrait = ComponentType.ReadWrite<Workstation>();
+            BedTrait = ComponentType.ReadWrite<Bed>();
+            DispenserTrait = ComponentType.ReadWrite<Dispenser>();
+            InventoryTrait = ComponentType.ReadWrite<Inventory>();
+            NeedTrait = ComponentType.ReadWrite<Need>();
+            TimeTrait = ComponentType.ReadWrite<Time>();
+            AgentTrait = ComponentType.ReadWrite<Agent>();
+            DurationTrait = ComponentType.ReadWrite<Duration>();
+            LocationTrait = ComponentType.ReadWrite<Location>();
 
             zeroSizedWorkstation = WorkstationTrait.IsZeroSized;
             zeroSizedBed = BedTrait.IsZeroSized;
@@ -194,30 +194,34 @@ namespace WorkaholicDomain
         {
             m_EntityListLHS.Clear();
             m_EntityListRHS.Clear();
-            
+
             // Easy check is to make sure each state has the same number of domain objects
             var lhsObjectBuffer = EntityManager.GetBuffer<DomainObjectReference>(lhsStateEntity);
             var rhsObjectBuffer = EntityManager.GetBuffer<DomainObjectReference>(rhsStateEntity);
             if (lhsObjectBuffer.Length != rhsObjectBuffer.Length)
+            {
                 return false;
-            
+            }
+
             for (var i = 0; i < lhsObjectBuffer.Length; i++)
             {
                 m_EntityListLHS.Add(lhsObjectBuffer[i].DomainObjectEntity);
                 m_EntityListRHS.Add(rhsObjectBuffer[i].DomainObjectEntity);
             }
-            
+
             // Next, check that each object has at least one match (by hash/checksum/trait mask)
             var entityHashCodes = GetComponentDataFromEntity<HashCode>();
             var lhsHashCode = entityHashCodes[lhsStateEntity];
             var rhsHashCode = entityHashCodes[rhsStateEntity];
             if (lhsHashCode != rhsHashCode)
+            {
                 return false;
-            
+            }
+
             for (var index = 0; index < m_EntityListLHS.Count; index++)
             {
                 var entityLHS = m_EntityListLHS[index];
-            
+
                 // Check for any objects with matching hash code.
                 var hashLHS = entityHashCodes[entityLHS];
                 var foundMatch = false;
@@ -230,13 +234,14 @@ namespace WorkaholicDomain
                         break;
                     }
                 }
-            
+
                 // No matching object found.
                 if (!foundMatch)
+                {
                     return false;
+                }
             }
-            
-            // todo do not need to grab zero-sized components
+
             var Workstations = GetComponentDataFromEntity<Workstation>(true);
             var Beds = GetComponentDataFromEntity<Bed>(true);
             var Dispensers = GetComponentDataFromEntity<Dispenser>(true);
@@ -247,11 +252,10 @@ namespace WorkaholicDomain
             var Durations = GetComponentDataFromEntity<Duration>(true);
             var Locations = GetComponentDataFromEntity<Location>(true);
 
-            
             while (m_EntityListLHS.Count > 0)
             {
                 var entityLHS = m_EntityListLHS[0];
-            
+
                 // Check for any objects with matching hash code.
                 var hashLHS = entityHashCodes[entityLHS];
                 var firstMatchIndex = -1;
@@ -264,9 +268,13 @@ namespace WorkaholicDomain
                         break;
                     }
                 }
-            
+                if (firstMatchIndex == -1)
+                {
+                    return false;
+                }
+
                 var traitMask = (TraitMask)hashLHS.TraitMask;
-            
+
                 var hasWorkstation = (traitMask & TraitMask.Workstation) != 0;
                 var hasBed = (traitMask & TraitMask.Bed) != 0;
                 var hasDispenser = (traitMask & TraitMask.Dispenser) != 0;
@@ -277,42 +285,62 @@ namespace WorkaholicDomain
                 var hasDuration = (traitMask & TraitMask.Duration) != 0;
                 var hasLocation = (traitMask & TraitMask.Location) != 0;
 
-            
                 var foundMatch = false;
                 for (var rhsIndex = firstMatchIndex; rhsIndex < m_EntityListRHS.Count; rhsIndex++)
                 {
                     var entityRHS = m_EntityListRHS[rhsIndex];
                     if (hashLHS != entityHashCodes[entityRHS])
+                    {
                         continue;
-            
-                    if (hasWorkstation && !zeroSizedWorkstation && !Workstations[entityLHS].Equals(Workstations[entityRHS]))
-                        continue;
-                    if (hasBed && !zeroSizedBed && !Beds[entityLHS].Equals(Beds[entityRHS]))
-                        continue;
-                    if (hasDispenser && !zeroSizedDispenser && !Dispensers[entityLHS].Equals(Dispensers[entityRHS]))
-                        continue;
-                    if (hasInventory && !zeroSizedInventory && !Inventorys[entityLHS].Equals(Inventorys[entityRHS]))
-                        continue;
-                    if (hasNeed && !zeroSizedNeed && !Needs[entityLHS].Equals(Needs[entityRHS]))
-                        continue;
-                    if (hasTime && !zeroSizedTime && !Times[entityLHS].Equals(Times[entityRHS]))
-                        continue;
-                    if (hasAgent && !zeroSizedAgent && !Agents[entityLHS].Equals(Agents[entityRHS]))
-                        continue;
-                    if (hasDuration && !zeroSizedDuration && !Durations[entityLHS].Equals(Durations[entityRHS]))
-                        continue;
-                    if (hasLocation && !zeroSizedLocation && !Locations[entityLHS].Equals(Locations[entityRHS]))
-                        continue;
+                    }
 
-            
+                    if (hasWorkstation && !zeroSizedWorkstation && !Workstations[entityLHS].Equals(Workstations[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasBed && !zeroSizedBed && !Beds[entityLHS].Equals(Beds[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasDispenser && !zeroSizedDispenser && !Dispensers[entityLHS].Equals(Dispensers[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasInventory && !zeroSizedInventory && !Inventorys[entityLHS].Equals(Inventorys[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasNeed && !zeroSizedNeed && !Needs[entityLHS].Equals(Needs[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasTime && !zeroSizedTime && !Times[entityLHS].Equals(Times[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasAgent && !zeroSizedAgent && !Agents[entityLHS].Equals(Agents[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasDuration && !zeroSizedDuration && !Durations[entityLHS].Equals(Durations[entityRHS]))
+                    {
+                        continue;
+                    }
+                    if (hasLocation && !zeroSizedLocation && !Locations[entityLHS].Equals(Locations[entityRHS]))
+                    {
+                        continue;
+                    }
+
                     m_EntityListLHS.RemoveAt(0);
                     m_EntityListRHS.RemoveAt(rhsIndex);
                     foundMatch = true;
                     break;
                 }
-            
+
                 if (!foundMatch)
+                {
                     return false;
+                }
             }
             return true;
         }

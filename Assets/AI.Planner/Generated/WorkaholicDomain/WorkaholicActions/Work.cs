@@ -160,7 +160,7 @@ namespace WorkaholicDomain.WorkaholicActions
             var workstationEntity = GetEntity(domainObjectBuffer, permutation.workstationIndex, stateCopyEntity);
             var durationEntity = GetEntity(domainObjectBuffer, permutation.durationIndex, stateCopyEntity);
             var timeEntity = GetEntity(domainObjectBuffer, permutation.timeIndex, stateCopyEntity);
-
+            
             {
                 var @time = Times[timeEntity];
                 var hash = objectHashes[timeEntity];

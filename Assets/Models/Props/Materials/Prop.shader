@@ -1,4 +1,4 @@
-// Shader created with Shader Forge v1.37 
+// Shader created with Shader Forge v1.37
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
 /*SF_DATA;ver:1.37;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:1,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-6343-OUT,spec-358-OUT,gloss-6500-OUT,emission-3788-OUT,difocc-8500-R,spcocc-8500-R;n:type:ShaderForge.SFN_Multiply,id:6343,x:32114,y:32712,varname:node_6343,prsc:2|A-6665-RGB,B-8500-R,C-9098-OUT;n:type:ShaderForge.SFN_Color,id:6665,x:31881,y:32645,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.25,c2:1,c3:0,c4:1;n:type:ShaderForge.SFN_Slider,id:358,x:32250,y:32780,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Slider,id:1813,x:32250,y:32882,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.6119658,max:1;n:type:ShaderForge.SFN_VertexColor,id:8500,x:31932,y:32986,varname:node_8500,prsc:2;n:type:ShaderForge.SFN_Multiply,id:1987,x:32122,y:33027,varname:node_1987,prsc:2|A-8500-R,B-5326-OUT;n:type:ShaderForge.SFN_Add,id:6500,x:32270,y:33121,varname:node_6500,prsc:2|A-1987-OUT,B-4913-OUT;n:type:ShaderForge.SFN_Vector1,id:5326,x:31943,y:33114,varname:node_5326,prsc:2,v1:-0.25;n:type:ShaderForge.SFN_Vector1,id:4913,x:32102,y:33158,varname:node_4913,prsc:2,v1:0.7;n:type:ShaderForge.SFN_Fresnel,id:570,x:32152,y:32571,varname:node_570,prsc:2|EXP-4067-OUT;n:type:ShaderForge.SFN_Multiply,id:3788,x:32369,y:32490,varname:node_3788,prsc:2|A-570-OUT,B-6665-RGB;n:type:ShaderForge.SFN_Vector1,id:9098,x:31908,y:32803,varname:node_9098,prsc:2,v1:2;n:type:ShaderForge.SFN_Vector1,id:4067,x:31992,y:32570,varname:node_4067,prsc:2,v1:2;proporder:6665-358-1813;pass:END;sub:END;*/
@@ -18,12 +18,12 @@ Shader "Shader Forge/Prop" {
             Tags {
                 "LightMode"="ForwardBase"
             }
-            
-            
+
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_FORWARDBASE
+            //#define UNITY_PASS_FORWARDBASE
             #define SHOULD_SAMPLE_SH ( defined (LIGHTMAP_OFF) && defined(DYNAMICLIGHTMAP_OFF) )
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
@@ -36,7 +36,7 @@ Shader "Shader Forge/Prop" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles
             #pragma target 3.0
             uniform float4 _Color;
             uniform float _Metallic;
@@ -206,12 +206,12 @@ Shader "Shader Forge/Prop" {
                 "LightMode"="ForwardAdd"
             }
             Blend One One
-            
-            
+
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_FORWARDADD
+            //#define UNITY_PASS_FORWARDADD
             #define SHOULD_SAMPLE_SH ( defined (LIGHTMAP_OFF) && defined(DYNAMICLIGHTMAP_OFF) )
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
@@ -224,7 +224,7 @@ Shader "Shader Forge/Prop" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles
             #pragma target 3.0
             uniform float4 _Color;
             uniform float _Metallic;
@@ -326,7 +326,7 @@ Shader "Shader Forge/Prop" {
                 "LightMode"="Meta"
             }
             Cull Off
-            
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -344,7 +344,7 @@ Shader "Shader Forge/Prop" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles
             #pragma target 3.0
             uniform float4 _Color;
             uniform float _Metallic;
@@ -379,16 +379,16 @@ Shader "Shader Forge/Prop" {
                 float3 normalDirection = i.normalDir;
                 UnityMetaInput o;
                 UNITY_INITIALIZE_OUTPUT( UnityMetaInput, o );
-                
+
                 o.Emission = (pow(1.0-max(0,dot(normalDirection, viewDirection)),2.0)*_Color.rgb);
-                
+
                 float3 diffColor = (_Color.rgb*i.vertexColor.r*2.0);
                 float specularMonochrome;
                 float3 specColor;
                 diffColor = DiffuseAndSpecularFromMetallic( diffColor, _Metallic, specColor, specularMonochrome );
                 float roughness = ((i.vertexColor.r*(-0.25))+0.7);
                 o.Albedo = diffColor + specColor * roughness * roughness * 0.5;
-                
+
                 return UnityMetaFragment( o );
             }
             ENDCG

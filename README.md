@@ -12,7 +12,7 @@ The AI Planner includes authoring tools and a system for automated decision-maki
 Start by creating a domain definition in the authoring tool that models the problem space at an abstract level. Then, create one or more plan definitions that provide rules for what actions or decisions can be made. Submit these to the planner system and get back a plan that converges on an optimal solution and can update as changes in the world occur.
 
 ## Installation Guide
-1. Clone this repo
+1. Clone this repo (downloading a .zip file will not include largefiles -- e.g. fbx, png)
 2. Open the project in Unity version 2019.1 or later
 
 ## References

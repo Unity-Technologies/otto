@@ -1,4 +1,4 @@
-// Shader created with Shader Forge v1.38 
+// Shader created with Shader Forge v1.38
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
 /*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:1,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-5377-OUT,spec-358-OUT,gloss-4608-OUT,normal-743-RGB,emission-5728-OUT,transm-9448-G,difocc-9448-R,spcocc-9448-R;n:type:ShaderForge.SFN_Multiply,id:6343,x:32014,y:32572,varname:node_6343,prsc:2|A-6481-OUT,B-9448-G;n:type:ShaderForge.SFN_Slider,id:358,x:32321,y:33145,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Vector1,id:6481,x:31803,y:32572,varname:node_6481,prsc:2,v1:0.25;n:type:ShaderForge.SFN_Tex2d,id:743,x:32541,y:33288,ptovrint:False,ptlb:Texture_Normal,ptin:_Texture_Normal,varname:node_743,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:138bb1b9c66b2f34c92cc1bd2d761b60,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Tex2d,id:9448,x:31814,y:32728,ptovrint:False,ptlb:Texture_Masks,ptin:_Texture_Masks,varname:node_9448,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:64aeb3532758cdd4eb734e11d7f62b56,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Add,id:445,x:32183,y:32644,varname:node_445,prsc:2|A-6343-OUT,B-1709-OUT;n:type:ShaderForge.SFN_Vector1,id:1709,x:32014,y:32704,varname:node_1709,prsc:2,v1:0.1;n:type:ShaderForge.SFN_FragmentPosition,id:7126,x:32315,y:32266,varname:node_7126,prsc:2;n:type:ShaderForge.SFN_Distance,id:3940,x:32489,y:32320,varname:node_3940,prsc:2|A-7126-XYZ,B-1002-OUT;n:type:ShaderForge.SFN_Vector3,id:1002,x:32315,y:32396,varname:node_1002,prsc:2,v1:0,v2:0,v3:0;n:type:ShaderForge.SFN_Vector1,id:6099,x:32489,y:32248,varname:node_6099,prsc:2,v1:25;n:type:ShaderForge.SFN_Subtract,id:9993,x:32680,y:32278,varname:node_9993,prsc:2|A-6099-OUT,B-3940-OUT;n:type:ShaderForge.SFN_Clamp01,id:3156,x:33003,y:32279,varname:node_3156,prsc:2|IN-3666-OUT;n:type:ShaderForge.SFN_Multiply,id:5377,x:32376,y:32644,varname:node_5377,prsc:2|A-4672-RGB,B-6229-OUT,C-445-OUT,D-9879-OUT;n:type:ShaderForge.SFN_Add,id:7474,x:33152,y:32379,varname:node_7474,prsc:2|A-3156-OUT,B-4460-OUT;n:type:ShaderForge.SFN_Vector1,id:4460,x:32991,y:32482,varname:node_4460,prsc:2,v1:0.5;n:type:ShaderForge.SFN_Color,id:4672,x:31954,y:32374,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_4672,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Slider,id:9879,x:31958,y:32251,ptovrint:False,ptlb:Color_Multiplier,ptin:_Color_Multiplier,varname:node_9879,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:2;n:type:ShaderForge.SFN_Slider,id:8967,x:32022,y:33061,ptovrint:False,ptlb:Roughness_Offset,ptin:_Roughness_Offset,varname:node_8967,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:-1,cur:0,max:1;n:type:ShaderForge.SFN_Subtract,id:7023,x:32100,y:32921,varname:node_7023,prsc:2|A-904-OUT,B-9448-B;n:type:ShaderForge.SFN_Vector1,id:904,x:32022,y:32821,varname:node_904,prsc:2,v1:0.5;n:type:ShaderForge.SFN_Multiply,id:9836,x:32294,y:32866,varname:node_9836,prsc:2|A-7023-OUT,B-8186-OUT;n:type:ShaderForge.SFN_Add,id:5112,x:32399,y:32992,varname:node_5112,prsc:2|A-9836-OUT,B-8967-OUT;n:type:ShaderForge.SFN_Vector1,id:8186,x:32209,y:32992,varname:node_8186,prsc:2,v1:0.5;n:type:ShaderForge.SFN_Clamp01,id:4608,x:32529,y:32876,varname:node_4608,prsc:2|IN-5112-OUT;n:type:ShaderForge.SFN_Fresnel,id:6890,x:33010,y:32605,varname:node_6890,prsc:2;n:type:ShaderForge.SFN_Slider,id:4058,x:32909,y:32822,ptovrint:False,ptlb:Fresnel_Multiplier,ptin:_Fresnel_Multiplier,varname:node_4058,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:2;n:type:ShaderForge.SFN_Multiply,id:5728,x:33204,y:32669,varname:node_5728,prsc:2|A-6890-OUT,B-4058-OUT,C-5377-OUT;n:type:ShaderForge.SFN_Vector1,id:6930,x:33152,y:32313,varname:node_6930,prsc:2,v1:1;n:type:ShaderForge.SFN_Lerp,id:6229,x:33332,y:32313,varname:node_6229,prsc:2|A-6930-OUT,B-7474-OUT,T-6322-OUT;n:type:ShaderForge.SFN_Slider,id:6322,x:33125,y:32538,ptovrint:False,ptlb:Use_WS_Position,ptin:_Use_WS_Position,varname:node_6322,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:1;n:type:ShaderForge.SFN_Divide,id:3666,x:32840,y:32279,varname:node_3666,prsc:2|A-9993-OUT,B-6099-OUT;proporder:358-743-9448-4672-9879-8967-4058-6322;pass:END;sub:END;*/
@@ -23,8 +23,8 @@ Shader "Shader Forge/FloorTiles" {
             Tags {
                 "LightMode"="ForwardBase"
             }
-            
-            
+
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -41,7 +41,7 @@ Shader "Shader Forge/FloorTiles" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles
             #pragma target 3.0
             uniform float _Metallic;
             uniform sampler2D _Texture_Normal; uniform float4 _Texture_Normal_ST;
@@ -228,12 +228,12 @@ Shader "Shader Forge/FloorTiles" {
                 "LightMode"="ForwardAdd"
             }
             Blend One One
-            
-            
+
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_FORWARDADD
+            //#define UNITY_PASS_FORWARDADD
             #define SHOULD_SAMPLE_SH ( defined (LIGHTMAP_OFF) && defined(DYNAMICLIGHTMAP_OFF) )
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
@@ -246,7 +246,7 @@ Shader "Shader Forge/FloorTiles" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles
             #pragma target 3.0
             uniform float _Metallic;
             uniform sampler2D _Texture_Normal; uniform float4 _Texture_Normal_ST;
@@ -365,7 +365,7 @@ Shader "Shader Forge/FloorTiles" {
                 "LightMode"="Meta"
             }
             Cull Off
-            
+
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -383,7 +383,7 @@ Shader "Shader Forge/FloorTiles" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d9 d3d11 glcore gles 
+            #pragma only_renderers d3d9 d3d11 glcore gles
             #pragma target 3.0
             uniform float _Metallic;
             uniform sampler2D _Texture_Masks; uniform float4 _Texture_Masks_ST;
@@ -423,21 +423,21 @@ Shader "Shader Forge/FloorTiles" {
                 float3 normalDirection = i.normalDir;
                 UnityMetaInput o;
                 UNITY_INITIALIZE_OUTPUT( UnityMetaInput, o );
-                
+
                 float node_6099 = 25.0;
                 float node_9993 = (node_6099-distance(i.posWorld.rgb,float3(0,0,0)));
                 float node_3156 = saturate((node_9993/node_6099));
                 float4 _Texture_Masks_var = tex2D(_Texture_Masks,TRANSFORM_TEX(i.uv0, _Texture_Masks));
                 float3 node_5377 = (_Color.rgb*lerp(1.0,(node_3156+0.5),_Use_WS_Position)*((0.25*_Texture_Masks_var.g)+0.1)*_Color_Multiplier);
                 o.Emission = ((1.0-max(0,dot(normalDirection, viewDirection)))*_Fresnel_Multiplier*node_5377);
-                
+
                 float3 diffColor = node_5377;
                 float specularMonochrome;
                 float3 specColor;
                 diffColor = DiffuseAndSpecularFromMetallic( diffColor, _Metallic, specColor, specularMonochrome );
                 float roughness = saturate((((0.5-_Texture_Masks_var.b)*0.5)+_Roughness_Offset));
                 o.Albedo = diffColor + specColor * roughness * roughness * 0.5;
-                
+
                 return UnityMetaFragment( o );
             }
             ENDCG

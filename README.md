@@ -1,3 +1,5 @@
+**Note: Clone the project using git. A download of the project via ZIP will leave files necessary for the demo scene.**
+
 # Otto
 Welcome to the Otto sample project for the [AI Planner](https://docs.unity3d.com/Packages/com.unity.ai.planner@0.0/). Otto is an agent which derives happiness from working, but must eat, drink, and sleep to stay alive in order to work.
 

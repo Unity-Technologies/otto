@@ -15,7 +15,7 @@ Start by defining a planning domain, composed of objects with which your agent m
 
 ## Installation Guide
 1. Clone this repo (downloading a .zip file will not include largefiles -- e.g. fbx, png)
-2. Open the project in Unity version 2019.1 or later
+2. Open the project in Unity version 2019.2
 
 ## References
 The Otto project shows how to make use of the AI Planner for a specific use case. Useful references include:

@@ -1,15 +1,16 @@
-﻿#if WORKAHOLICDOMAIN_GENERATED
+﻿#if PLANNER_ACTIONS_GENERATED
 using System;
 using System.Collections.Generic;
-using Unity.AI.Planner;
+using AI.Planner.Domains;
+using AI.Planner.Domains.Enums;
 using Unity.AI.Planner.Agent;
-using Unity.Entities;
-using UnityEngine;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
+using Unity.Collections;
 using Workaholic;
-using WorkaholicDomain;
+using UnityEngine;
 using Time = UnityEngine.Time;
 
-public abstract class OttoAction : IOperationalAction<Otto>
+public abstract class OttoAction : IOperationalAction<Otto, StateData, ActionKey>
 {
     public bool AnimationComplete { get; set; }
 
@@ -26,7 +27,7 @@ public abstract class OttoAction : IOperationalAction<Otto>
 
     protected float m_StartTime;
 
-    public virtual void BeginExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public virtual void BeginExecution(StateData state, ActionKey action, Otto actor)
     {
         m_StartTime = Time.time;
         m_AccumulatedTime = 0;
@@ -34,39 +35,43 @@ public abstract class OttoAction : IOperationalAction<Otto>
         AnimationComplete = false;
     }
 
-    public virtual void ContinueExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public virtual void ContinueExecution(StateData state, ActionKey action, Otto actor)
     {
-        UpdateNeeds(stateEntity, actor);
+        UpdateNeeds(state, actor);
     }
 
-    public virtual void EndExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public virtual void EndExecution(StateData state, ActionKey action, Otto actor)
     {
-        UpdateNeeds(stateEntity, actor);
+        UpdateNeeds(state, actor);
     }
 
-    public virtual OperationalActionStatus Status(Entity stateEntity, ActionContext action, Otto actor)
+    public virtual OperationalActionStatus Status(StateData state, ActionKey action, Otto actor)
     {
         return AnimationComplete && Time.time - m_StartTime > m_MinUnitTime ?
             OperationalActionStatus.Completed : OperationalActionStatus.InProgress;
     }
 
-    void UpdateNeeds(Entity stateEntity, Otto actor)
+    void UpdateNeeds(StateData state, Otto actor)
     {
         if (Mathf.Floor(Time.time - m_StartTime) > m_AccumulatedTime)
         {
             m_AccumulatedTime++;
 
-            var time = actor.GetObjectTrait<WorkaholicDomain.Time>(stateEntity);
-            time.Value += 1;
-            actor.SetObjectTrait(stateEntity, time);
-
+            var domainObjects = new NativeList<(DomainObject, int)>(4, Allocator.TempJob);
+            foreach (var (_, domainObjectIndex) in state.GetDomainObjects(domainObjects, typeof(AI.Planner.Domains.Time)))
+            {
+                var time = state.GetTraitOnObjectAtIndex<AI.Planner.Domains.Time>(domainObjectIndex);
+                time.Value += 1;
+                state.SetTraitOnObjectAtIndex(time, domainObjectIndex);
+            }
 
             // Resources
-            foreach (var domainObjectEntity in actor.GetObjectEntities(stateEntity, typeof(Need)))
+            domainObjects.Clear();
+            foreach (var (_, domainObjectIndex) in state.GetDomainObjects(domainObjects, typeof(Need)))
             {
-                var need = actor.GetObjectTrait<Need>(domainObjectEntity);
+                var need = state.GetTraitOnObjectAtIndex<Need>(domainObjectIndex);
                 need.Urgency += need.ChangePerSecond;
-                actor.SetObjectTrait(domainObjectEntity, need);
+                state.SetTraitOnObjectAtIndex(need, domainObjectIndex);
 
                 // Check for death.
                 if (need.Urgency > 100)
@@ -75,6 +80,7 @@ public abstract class OttoAction : IOperationalAction<Otto>
                     m_Animator.SetBool(m_DeathAnimationFlags[need.NeedType], true);
                 }
             }
+            domainObjects.Dispose();
         }
     }
 }

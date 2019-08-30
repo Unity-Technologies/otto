@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e16f0575d73480ebe7b76bb4ae3939, type: 3}
+  m_Name: Pickup
+  m_EditorClassIdentifier: 
+  m_Namespace: WorkaholicActions
+  m_Parameters:
+  - m_Name: agent
+    m_RequiredTraits:
+    - {fileID: 11400000, guid: 1b5fb010c6dbd4d30a41cbcff08056e4, type: 2}
+    - {fileID: 11400000, guid: 9d24b90158d644873a4d488182380074, type: 2}
+    m_ProhibitedTraits: []
+  - m_Name: dispenser
+    m_RequiredTraits:
+    - {fileID: 11400000, guid: 9d24b90158d644873a4d488182380074, type: 2}
+    - {fileID: 11400000, guid: c7a0532d3a8e34b85b45a7643531011e, type: 2}
+    m_ProhibitedTraits: []
+  - m_Name: inventory
+    m_RequiredTraits:
+    - {fileID: 11400000, guid: 710e975822c644ac092741faf84613c5, type: 2}
+    m_ProhibitedTraits: []
+  - m_Name: time
+    m_RequiredTraits:
+    - {fileID: 11400000, guid: 7fbce65282a1047ff83696ccb209370b, type: 2}
+    m_ProhibitedTraits: []
+  m_Preconditions:
+  - m_OperandA:
+    - agent
+    - Location.Position
+    m_Operator: ==
+    m_OperandB:
+    - dispenser
+    - Location.Position
+  - m_OperandA:
+    - dispenser
+    - Dispenser.ConsumableType
+    m_Operator: ==
+    m_OperandB:
+    - inventory
+    - Inventory.ConsumableType
+  - m_OperandA:
+    - inventory
+    - Inventory.Amount
+    m_Operator: <
+    m_OperandB:
+    - 3
+  m_CreatedObjects: []
+  m_RemovedObjects: []
+  m_Effects:
+  - m_OperandA:
+    - inventory
+    - Inventory.Amount
+    m_Operator: +=
+    m_OperandB:
+    - 1
+  - m_OperandA:
+    - time
+    - Time.Value
+    m_Operator: +=
+    m_OperandB:
+    - 1
+  m_Reward: -1
+  m_OperationalActionType: PickupAction
+  m_CustomEffect: UpdateNeeds

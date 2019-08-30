@@ -1,0 +1,18 @@
+{
+    "name": "Workaholic.Custom",
+    "references": [
+        "Unity.AI.Planner",
+        "Unity.Entities",
+        "Unity.AI.Planner.Custom"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "AI.Planner.Domains.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

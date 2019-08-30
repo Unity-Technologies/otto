@@ -1,31 +1,49 @@
 ﻿using System;
+using Unity.AI.Planner;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
+using Unity.Collections;
 using Unity.Entities;
-using UnityEngine.AI.Planner.Agent;
-#if WORKAHOLICDOMAIN_GENERATED
-using WorkaholicDomain;
+using UnityEngine.AI.Planner.DomainLanguage.TraitBased;
+
+#if PLANNER_DOMAIN_GENERATED
+using AI.Planner.Actions.WorkaholicAgent;
+using AI.Planner.Domains;
 #endif
 
 namespace Workaholic
 {
-    public class Otto : BaseAgent<Otto>
+#if PLANNER_DOMAIN_GENERATED
+    [Serializable]
+    public class Otto : BaseAgent<Otto, DomainObject, StateEntityKey, StateData, StateDataContext, ActionScheduler, NeedHeuristic, TerminationEvaluator, StateManager, ActionKey>
     {
         public bool Dead { get; set; }
+        public static ComponentType[] NeedFilter;
+        public static ComponentType[] InventoryFilter;
+
+        void Awake()
+        {
+            NeedFilter = new ComponentType[] { typeof(Need) };
+            InventoryFilter = new ComponentType[] { typeof(Inventory) };
+        }
 
         protected override void Update()
         {
             if (!Dead)
-                Controller.Update();
+                base.Update();
         }
+    }
 
-#if WORKAHOLICDOMAIN_GENERATED
-        protected override float Heuristic(Entity stateEntity)
+    public struct NeedHeuristic : IHeuristic<StateData>
+    {
+        public float Evaluate(StateData stateData)
         {
             var totalNeedsUrgency = 0L;
 
             // Resources
-            foreach (var domainObjectEntity in GetObjectEntities(stateEntity, typeof(Need)))
+            var domainObjects = new NativeList<(DomainObject, int)>(4, Allocator.Temp);
+            foreach (var (_, domainObjectIndex) in stateData.GetDomainObjects(domainObjects, Otto.NeedFilter))
             {
-                var needTrait = m_EntityManager.GetComponentData<Need>(domainObjectEntity);
+                var needTrait = stateData.GetTraitOnObjectAtIndex<Need>(domainObjectIndex);
                 totalNeedsUrgency += needTrait.Urgency;
             }
 
@@ -41,14 +59,16 @@ namespace Workaholic
             if (totalNeedsUrgency > 200)
                 value = -150;
 
-            foreach (var domainObjectEntity in GetObjectEntities(stateEntity, typeof(Inventory)))
+            domainObjects.Clear();
+            foreach (var (_, domainObjectIndex) in stateData.GetDomainObjects(domainObjects, Otto.InventoryFilter))
             {
-                var inventoryTrait = m_EntityManager.GetComponentData<Inventory>(domainObjectEntity);
+                var inventoryTrait = stateData.GetTraitOnObjectAtIndex<Inventory>(domainObjectIndex);
                 value += inventoryTrait.Amount * 10;
             }
+            domainObjects.Dispose();
 
             return value;
         }
-#endif
     }
+#endif
 }

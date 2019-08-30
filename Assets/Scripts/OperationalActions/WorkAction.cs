@@ -1,11 +1,11 @@
-﻿#if WORKAHOLICDOMAIN_GENERATED
+﻿#if PLANNER_ACTIONS_GENERATED
 using System;
-using Unity.AI.Planner;
+using AI.Planner.Domains;
+using AI.Planner.Domains.Enums;
 using Unity.AI.Planner.Agent;
-using Unity.Entities;
-using UnityEngine;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
 using Workaholic;
-using WorkaholicDomain;
+using UnityEngine;
 using Time = UnityEngine.Time;
 
 public class WorkAction : OttoAction
@@ -15,28 +15,27 @@ public class WorkAction : OttoAction
     const float k_ExitTime = 0.667f;
     static readonly int s_ContinueWork = Animator.StringToHash("ContinueWork");
 
-    public override void BeginExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public override void BeginExecution(StateData state, ActionKey action, Otto actor)
     {
-        base.BeginExecution(stateEntity, action, actor);
+        base.BeginExecution(state, action, actor);
 
         m_StartTime = Time.time;
 
-        var ecsAction = action;
-        m_Duration = ecsAction.GetTrait<Duration>(2).Time;
+        m_Duration = state.GetTraitOnObjectAtIndex<Duration>(action[2]).Time;
 
         m_Animator.SetTrigger(k_Work);
         m_Animator.SetBool(s_ContinueWork, true);
     }
 
-    public override void ContinueExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public override void ContinueExecution(StateData state, ActionKey action, Otto actor)
     {
-        base.ContinueExecution(stateEntity, action, actor);
+        base.ContinueExecution(state, action, actor);
 
         if (Time.time - m_StartTime >= m_Duration - k_ExitTime)
             m_Animator.SetBool(s_ContinueWork, false);
     }
 
-    public override OperationalActionStatus Status(Entity stateEntity, ActionContext action, Otto actor)
+    public override OperationalActionStatus Status(StateData state, ActionKey action, Otto actor)
     {
         return Time.time - m_StartTime >= m_Duration ?
             OperationalActionStatus.Completed :

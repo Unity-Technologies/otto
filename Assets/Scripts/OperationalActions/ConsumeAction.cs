@@ -1,10 +1,11 @@
-﻿#if WORKAHOLICDOMAIN_GENERATED
+﻿#if PLANNER_ACTIONS_GENERATED
 using System;
-using Unity.AI.Planner;
-using Unity.Entities;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
+using Unity.Collections;
 using UnityEngine;
 using Workaholic;
-using WorkaholicDomain;
+using AI.Planner.Domains;
+using AI.Planner.Domains.Enums;
 
 public class ConsumeAction : OttoAction
 {
@@ -17,12 +18,11 @@ public class ConsumeAction : OttoAction
     long           m_NeedReduction;
 
 
-    public override void BeginExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public override void BeginExecution(StateData state, ActionKey action, Otto actor)
     {
-        base.BeginExecution(stateEntity, action, actor);
+        base.BeginExecution(state, action, actor);
 
-        var ecsAction = action;
-        var inventory = ecsAction.GetTrait<Inventory>(1);
+        var inventory = state.GetTraitOnObjectAtIndex<Inventory>(action[1]);
 
         m_ConsumableType = inventory.ConsumableType;
         m_NeedType       = inventory.SatisfiesNeed;
@@ -32,23 +32,26 @@ public class ConsumeAction : OttoAction
         m_Animator.SetTrigger(m_ConsumableType == ConsumableType.Apple ? k_EatFromPocket : k_DrinkFromPocket);
     }
 
-    public override void EndExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public override void EndExecution(StateData state, ActionKey action, Otto actor)
     {
-        base.EndExecution(stateEntity, action, actor);
+        base.EndExecution(state, action, actor);
 
-        foreach (var domainObjectEntity in actor.GetObjectEntities(stateEntity, typeof(Inventory)))
+        var domainObjects = new NativeList<(DomainObject, int)>(4, Allocator.TempJob);
+        foreach (var (_, domainObjectIndex) in state.GetDomainObjects(domainObjects, typeof(Inventory)))
         {
-            var inventory = actor.GetObjectTrait<Inventory>(domainObjectEntity);
+            var inventory = state.GetTraitOnObjectAtIndex<Inventory>(domainObjectIndex);
             inventory.Amount -= inventory.ConsumableType == m_ConsumableType ? 1 : 0;
-            actor.SetObjectTrait(domainObjectEntity, inventory);
+            state.SetTraitOnObjectAtIndex(inventory, domainObjectIndex);
         }
 
-        foreach (var domainObjectEntity in actor.GetObjectEntities(stateEntity, typeof(Need)))
+        domainObjects.Clear();
+        foreach (var (_, domainObjectIndex) in state.GetDomainObjects(domainObjects, typeof(Need)))
         {
-            var need = actor.GetObjectTrait<Need>(domainObjectEntity);
+            var need = state.GetTraitOnObjectAtIndex<Need>(domainObjectIndex);
             need.Urgency -= need.NeedType == m_NeedType ? m_NeedReduction : 0;
-            actor.SetObjectTrait(domainObjectEntity, need);
+            state.SetTraitOnObjectAtIndex(need, domainObjectIndex);
         }
+        domainObjects.Dispose();
     }
 }
 #endif

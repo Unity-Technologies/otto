@@ -30,6 +30,8 @@ public class CheckPosition : StateMachineBehaviour
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         base.OnStateExit(animator, stateInfo, layerIndex);
-        animator.gameObject.GetComponentInChildren<Otto>().Controller.CompleteAction();
+#if PLANNER_DOMAIN_GENERATED
+        animator.gameObject.GetComponentInChildren<Otto>().CompleteAction();
+#endif
     }
 }

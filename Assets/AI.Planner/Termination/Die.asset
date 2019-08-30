@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 701c5d8bd1c704db8b5f6d23b982b4f4, type: 3}
+  m_Name: Die
+  m_EditorClassIdentifier: 
+  m_Namespace: WorkaholicActions
+  m_ObjectParameters:
+    m_Name: need
+    m_RequiredTraits:
+    - {fileID: 11400000, guid: 53cb96f1cbacf41418a061ec9e35ec02, type: 2}
+    m_ProhibitedTraits: []
+  m_Criteria:
+  - m_OperandA:
+    - need
+    - Need.Urgency
+    m_Operator: '>='
+    m_OperandB:
+    - 100

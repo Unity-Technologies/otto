@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f1cdb1180304d999ee55b63ef00773, type: 3}
+  m_Name: WorkaholicAgent
+  m_EditorClassIdentifier: 
+  m_ActionDefinitions:
+  - {fileID: 11400000, guid: b7152a1a5c8e746a384d824604f590c8, type: 2}
+  - {fileID: 11400000, guid: d1f86701317fe4ef7b95760b83cf0e88, type: 2}
+  - {fileID: 11400000, guid: 296902e5fcc7f41e1b6d78ae49aabafb, type: 2}
+  - {fileID: 11400000, guid: f28aa60bc59a24b1288c589335d7c134, type: 2}
+  - {fileID: 11400000, guid: b07af6cef5d50450eb2e6b3c6cceeda9, type: 2}
+  m_StateTerminationDefinitions:
+  - {fileID: 11400000, guid: 5d36f97eed3f5460480411f5828e0528, type: 2}

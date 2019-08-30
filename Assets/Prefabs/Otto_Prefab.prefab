@@ -279,6 +279,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -378,8 +379,9 @@ GameObject:
   - component: {fileID: 114646671591273906}
   - component: {fileID: 54614072029034520}
   - component: {fileID: 114943716627573396}
+  - component: {fileID: 1279532671}
   m_Layer: 0
-  m_Name: Yolo_Prefab
+  m_Name: Otto_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -458,7 +460,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1096975914868224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 5b2d6820c2c0c0849988d95c8588d334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -487,7 +488,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1096975914868224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: cd309f51066cd604a87282758cb8d3f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -495,6 +495,175 @@ MonoBehaviour:
   bottle: {fileID: 1291600628178172}
   tableApple: {fileID: 0}
   tableBottle: {fileID: 0}
+--- !u!114 &1279532671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096975914868224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4163c4525e1464b2d87e13978b85c02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectData:
+  - m_Name: Yolo
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 1b5fb010c6dbd4d30a41cbcff08056e4,
+        type: 2}
+      m_FieldValues:
+      - m_Name: NeedType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: ChangePerSecond
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+    - m_TraitDefinition: {fileID: 11400000, guid: 9d24b90158d644873a4d488182380074,
+        type: 2}
+      m_FieldValues:
+      - m_Name: NeedType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: ChangePerSecond
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: Transform
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 4801800768391532}
+  - m_Name: Inventory_Bottles
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 710e975822c644ac092741faf84613c5,
+        type: 2}
+      m_FieldValues:
+      - m_Name: ConsumableType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: SatisfiesNeed
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+  - m_Name: Inventory_Apples
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 710e975822c644ac092741faf84613c5,
+        type: 2}
+      m_FieldValues:
+      - m_Name: ConsumableType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: SatisfiesNeed
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+  - m_Name: Yolo_Hunger
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 53cb96f1cbacf41418a061ec9e35ec02,
+        type: 2}
+      m_FieldValues:
+      - m_Name: NeedType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: ChangePerSecond
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+  - m_Name: Yolo_Thirst
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 53cb96f1cbacf41418a061ec9e35ec02,
+        type: 2}
+      m_FieldValues:
+      - m_Name: NeedType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: ChangePerSecond
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+  - m_Name: Yolo_Fatigue
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 53cb96f1cbacf41418a061ec9e35ec02,
+        type: 2}
+      m_FieldValues:
+      - m_Name: NeedType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 2
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: ChangePerSecond
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+  - m_Name: Duration_5s
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 36097dad591994e9594a4f71dbae9d15,
+        type: 2}
+      m_FieldValues:
+      - m_Name: Time
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 5
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+  - m_Name: Duration_10s
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 36097dad591994e9594a4f71dbae9d15,
+        type: 2}
+      m_FieldValues:
+      - m_Name: Time
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 10
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+  - m_Name: Duration_15s
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 36097dad591994e9594a4f71dbae9d15,
+        type: 2}
+      m_FieldValues:
+      - m_Name: Time
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 15
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
 --- !u!1 &1106499226581094
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,260 +995,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1244977743218236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 4077bfba82c397a41bb3fffb71da9a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DomainData:
-    m_BehaviorDefinition: {fileID: 11400000, guid: da983e96120579d4fa68db71b771528c,
+  m_InitialStateTraitData:
+  - m_TraitDefinition: {fileID: 11400000, guid: 7fbce65282a1047ff83696ccb209370b,
       type: 2}
-    m_InitialDomainObjectData:
-    - m_Name: Bed
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Location
-        m_FieldValues:
-        - m_Name: Transform
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-      - m_TraitDefinitionName: Bed
-        m_FieldValues: []
-    - m_Name: FoodDispenser
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Location
-        m_FieldValues:
-        - m_Name: Transform
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-      - m_TraitDefinitionName: Dispenser
-        m_FieldValues:
-        - m_Name: ConsumableType
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: BottleDispenser
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Location
-        m_FieldValues:
-        - m_Name: Transform
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-      - m_TraitDefinitionName: Dispenser
-        m_FieldValues:
-        - m_Name: ConsumableType
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 1
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Workstation
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Location
-        m_FieldValues:
-        - m_Name: Transform
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-      - m_TraitDefinitionName: Workstation
-        m_FieldValues: []
-    - m_Name: Yolo
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Location
-        m_FieldValues:
-        - m_Name: Transform
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 4801800768391532}
-      - m_TraitDefinitionName: Agent
-        m_FieldValues: []
-    - m_Name: Yolo_Hunger
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Need
-        m_FieldValues:
-        - m_Name: NeedType
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: Urgency
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: ChangePerSecond
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 1
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Yolo_Thirst
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Need
-        m_FieldValues:
-        - m_Name: NeedType
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 1
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: Urgency
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: ChangePerSecond
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 2
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Yolo_Fatigue
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Need
-        m_FieldValues:
-        - m_Name: NeedType
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 2
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: Urgency
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: ChangePerSecond
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 1
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Duration_5s
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Duration
-        m_FieldValues:
-        - m_Name: Time
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 5
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Duration_10s
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Duration
-        m_FieldValues:
-        - m_Name: Time
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 10
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Duration_15s
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Duration
-        m_FieldValues:
-        - m_Name: Time
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 15
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Inventory_Apples
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Inventory
-        m_FieldValues:
-        - m_Name: ConsumableType
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: Amount
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: SatisfiesNeed
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: NeedReduction
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 50
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    - m_Name: Inventory_Bottles
-      m_SourceObject: {fileID: 0}
-      m_TraitData:
-      - m_TraitDefinitionName: Inventory
-        m_FieldValues:
-        - m_Name: ConsumableType
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 1
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: Amount
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 0
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: SatisfiesNeed
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 1
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-        - m_Name: NeedReduction
-          m_BoolValue: 0
-          m_FloatValue: 0
-          m_IntValue: 50
-          m_StringValue: 
-          m_ObjectValue: {fileID: 0}
-    m_InitialStateTraitData:
-    - m_TraitDefinitionName: Time
-      m_FieldValues:
-      - m_Name: Value
-        m_BoolValue: 0
-        m_FloatValue: 0
-        m_IntValue: 0
-        m_StringValue: 
-        m_ObjectValue: {fileID: 0}
+    m_FieldValues: []
+  m_PlanningDefinition: {fileID: 11400000, guid: 84151536f0a4244d2809072b44a07c1d,
+    type: 2}
 --- !u!114 &114928356642971268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1089,7 +1013,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1244977743218236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 849509d8c69207940b1017d478b1854d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1271,6 +1194,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2344,6 +2268,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

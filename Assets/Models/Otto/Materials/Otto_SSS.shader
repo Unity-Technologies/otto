@@ -26,7 +26,7 @@ Shader "Shader Forge/Otto_SSS" {
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #define UNITY_PASS_FORWARDBASE
+//            #define UNITY_PASS_FORWARDBASE
             #define _GLOSSYENV 1
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"

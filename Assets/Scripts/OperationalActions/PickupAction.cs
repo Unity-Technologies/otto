@@ -1,10 +1,12 @@
-﻿#if WORKAHOLICDOMAIN_GENERATED
+﻿#if PLANNER_ACTIONS_GENERATED
 using System;
-using Unity.AI.Planner;
+using AI.Planner.Domains;
+using AI.Planner.Domains.Enums;
+using Unity.AI.Planner.DomainLanguage.TraitBased;
+using Unity.Collections;
 using Unity.Entities;
-using UnityEngine;
 using Workaholic;
-using WorkaholicDomain;
+using UnityEngine;
 
 public class PickupAction : OttoAction
 {
@@ -13,29 +15,31 @@ public class PickupAction : OttoAction
     static readonly int k_PocketDrink = Animator.StringToHash("PocketDrink");
     ConsumableType      m_ConsumableType;
 
-    public override void BeginExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public override void BeginExecution(StateData state, ActionKey action, Otto actor)
     {
-        base.BeginExecution(stateEntity, action, actor);
+        base.BeginExecution(state, action, actor);
 
         AnimationComplete = false;
         m_Animator.SetTrigger(k_Consumables);
 
-        var dispenser = action.GetTrait<Dispenser>(1);
+        var dispenser = state.GetTraitOnObjectAtIndex<Dispenser>(action[1]);
 
         m_ConsumableType = dispenser.ConsumableType;
         m_Animator.SetTrigger(m_ConsumableType == ConsumableType.Apple ? k_PocketFood : k_PocketDrink);
     }
 
-    public override void EndExecution(Entity stateEntity, ActionContext action, Otto actor)
+    public override void EndExecution(StateData state, ActionKey action, Otto actor)
     {
-        foreach (var domainObjectEntity in actor.GetObjectEntities(stateEntity, typeof(Inventory)))
+        var domainObjects = new NativeList<(DomainObject, int)>(4, Allocator.TempJob);
+        foreach (var (_, domainObjectIndex) in state.GetDomainObjects(domainObjects, new ComponentType[] {typeof(Inventory)}))
         {
-            var inventory = actor.GetObjectTrait<Inventory>(domainObjectEntity);
+            var inventory = state.GetTraitOnObjectAtIndex<Inventory>(domainObjectIndex);
             inventory.Amount += inventory.ConsumableType == m_ConsumableType ? 1 : 0;
-            actor.SetObjectTrait(domainObjectEntity, inventory);
+            state.SetTraitOnObjectAtIndex(inventory, domainObjectIndex);
         }
+        domainObjects.Dispose();
 
-        base.EndExecution(stateEntity, action, actor);
+        base.EndExecution(state, action, actor);
     }
 }
 #endif

@@ -95,8 +95,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 112000000, guid: 7b2a310f0634e0349af285f72b1b4bf8,
     type: 2}
   m_UseShadowmask: 0
@@ -289,6 +289,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88ce186e32f6c8d4595f6593c3e2d612, type: 3}
+--- !u!1 &12236665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1262405919768274, guid: 88ce186e32f6c8d4595f6593c3e2d612,
+    type: 3}
+  m_PrefabInstance: {fileID: 12236663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &12236666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12236665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4163c4525e1464b2d87e13978b85c02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectData:
+  - m_Name: Bed
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: 9d24b90158d644873a4d488182380074,
+        type: 2}
+      m_FieldValues:
+      - m_Name: Transform
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 1413189587}
+      - m_Name: Position
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+    - m_TraitDefinition: {fileID: 11400000, guid: 4a312fc3d92c54686a3e8e4f3843ed87,
+        type: 2}
+      m_FieldValues: []
 --- !u!1 &13124718
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,7 +374,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 13124718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: a5bab39e9c1c3894da360167d334cb4e, type: 2}
@@ -355,6 +394,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &13124721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1484,7 +1524,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 192783375}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: e77c808ac238c9d408c700e6619a218c, type: 2}
@@ -1504,6 +1544,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &192783378
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4328,6 +4369,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d67ae62e25e8994b82c28379ded3323, type: 3}
+--- !u!1 &660772728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1371160695276842, guid: 8d67ae62e25e8994b82c28379ded3323,
+    type: 3}
+  m_PrefabInstance: {fileID: 660772726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &660772729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660772728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4163c4525e1464b2d87e13978b85c02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectData:
+  - m_Name: FoodDispenser
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: c7a0532d3a8e34b85b45a7643531011e,
+        type: 2}
+      m_FieldValues:
+      - m_Name: ConsumableType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+    - m_TraitDefinition: {fileID: 11400000, guid: 9d24b90158d644873a4d488182380074,
+        type: 2}
+      m_FieldValues:
+      - m_Name: Transform
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 1027812253}
 --- !u!1001 &664011521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4497,7 +4577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 696827191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -4514,7 +4594,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 696827191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
@@ -6916,6 +6996,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7277,7 +7358,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1096224230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 0c47ad04bec73ac4a94c5d6321cedff1, type: 2}
@@ -7297,6 +7378,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1096224233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9485,7 +9567,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418808600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
@@ -9504,7 +9586,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418808600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
@@ -10636,7 +10718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1606186976}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -10653,7 +10735,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1606186976}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
@@ -11226,6 +11308,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d42b4a9c8de71246a14e86a9d520654, type: 3}
+--- !u!1 &1724826470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1773616503292482, guid: 3d42b4a9c8de71246a14e86a9d520654,
+    type: 3}
+  m_PrefabInstance: {fileID: 1724826468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1724826471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724826470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4163c4525e1464b2d87e13978b85c02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectData:
+  - m_Name: Workstation
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: a9285f5341113469aa4c92495b35e4a1,
+        type: 2}
+      m_FieldValues: []
+    - m_TraitDefinition: {fileID: 11400000, guid: 9d24b90158d644873a4d488182380074,
+        type: 2}
+      m_FieldValues:
+      - m_Name: Transform
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 1197452737}
+      - m_Name: Position
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
 --- !u!4 &1740891305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4242454998195582, guid: 5dd975da7fcb50f4e833a24c75c39490,
@@ -11393,26 +11514,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114138760466653954, guid: c11a13e2f3e95874386fc57bfffb4be6,
-        type: 3}
-      propertyPath: m_DomainData.m_InitialDomainObjectData.Array.data[0].m_TraitData.Array.data[0].m_FieldValues.Array.data[0].m_ObjectValue
-      value: 
-      objectReference: {fileID: 1413189587}
-    - target: {fileID: 114138760466653954, guid: c11a13e2f3e95874386fc57bfffb4be6,
-        type: 3}
-      propertyPath: m_DomainData.m_InitialDomainObjectData.Array.data[1].m_TraitData.Array.data[0].m_FieldValues.Array.data[0].m_ObjectValue
-      value: 
-      objectReference: {fileID: 1027812253}
-    - target: {fileID: 114138760466653954, guid: c11a13e2f3e95874386fc57bfffb4be6,
-        type: 3}
-      propertyPath: m_DomainData.m_InitialDomainObjectData.Array.data[2].m_TraitData.Array.data[0].m_FieldValues.Array.data[0].m_ObjectValue
-      value: 
-      objectReference: {fileID: 1059241178}
-    - target: {fileID: 114138760466653954, guid: c11a13e2f3e95874386fc57bfffb4be6,
-        type: 3}
-      propertyPath: m_DomainData.m_InitialDomainObjectData.Array.data[3].m_TraitData.Array.data[0].m_FieldValues.Array.data[0].m_ObjectValue
-      value: 
-      objectReference: {fileID: 1197452737}
     - target: {fileID: 114943716627573396, guid: c11a13e2f3e95874386fc57bfffb4be6,
         type: 3}
       propertyPath: tableApple
@@ -11448,6 +11549,22 @@ PrefabInstance:
       propertyPath: BottleIcon
       value: 
       objectReference: {fileID: 510870675}
+    - target: {fileID: 1279532671, guid: c11a13e2f3e95874386fc57bfffb4be6, type: 3}
+      propertyPath: m_ObjectData.Array.data[0].m_Name
+      value: Otto
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279532671, guid: c11a13e2f3e95874386fc57bfffb4be6, type: 3}
+      propertyPath: m_ObjectData.Array.data[3].m_Name
+      value: Otto_Hunger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279532671, guid: c11a13e2f3e95874386fc57bfffb4be6, type: 3}
+      propertyPath: m_ObjectData.Array.data[4].m_Name
+      value: Otto_Thirst
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279532671, guid: c11a13e2f3e95874386fc57bfffb4be6, type: 3}
+      propertyPath: m_ObjectData.Array.data[5].m_Name
+      value: Otto_Fatigue
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c11a13e2f3e95874386fc57bfffb4be6, type: 3}
 --- !u!4 &1780905909 stripped
@@ -12211,7 +12328,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924248978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
@@ -12228,7 +12345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1924248978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
@@ -12431,6 +12548,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c65c9c3699138534f996380ea797bb81, type: 3}
+--- !u!1 &1959006185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1833291435366014, guid: c65c9c3699138534f996380ea797bb81,
+    type: 3}
+  m_PrefabInstance: {fileID: 1959006183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1959006186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959006185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4163c4525e1464b2d87e13978b85c02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ObjectData:
+  - m_Name: BottleDispenser
+    m_TraitData:
+    - m_TraitDefinition: {fileID: 11400000, guid: c7a0532d3a8e34b85b45a7643531011e,
+        type: 2}
+      m_FieldValues:
+      - m_Name: ConsumableType
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 1
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+    - m_TraitDefinition: {fileID: 11400000, guid: 9d24b90158d644873a4d488182380074,
+        type: 2}
+      m_FieldValues:
+      - m_Name: Position
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 0}
+      - m_Name: Transform
+        m_BoolValue: 0
+        m_FloatValue: 0
+        m_IntValue: 0
+        m_StringValue: 
+        m_ObjectValue: {fileID: 1059241178}
 --- !u!1001 &1976060054
 PrefabInstance:
   m_ObjectHideFlags: 0

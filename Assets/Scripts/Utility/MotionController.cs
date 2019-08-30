@@ -5,7 +5,6 @@ using UnityEngine.AI;
 [Serializable]
 public class MotionController : MonoBehaviour
 {
-
     public Vector3 TargetOrientation { get; set; }
 
     public Vector3 TargetPosition

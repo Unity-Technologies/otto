@@ -1,12 +1,13 @@
-﻿#if WORKAHOLICDOMAIN_GENERATED
+﻿#if PLANNER_DOMAIN_GENERATED
 using System;
 using System.Collections.Generic;
-using Unity.AI.Planner.Agent;
+using AI.Planner.Domains;
+using AI.Planner.Domains.Enums;
+using Unity.Collections;
 using Unity.Entities;
-using UnityEngine;
 using UnityEngine.UI;
 using Workaholic;
-using WorkaholicDomain;
+using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
@@ -18,7 +19,6 @@ public class UIManager : MonoBehaviour
     public int InventoryOffset;
 
     Otto m_Otto;
-    Controller<Otto> m_Controller;
     List<Image> m_Apples = new List<Image>();
     List<Image> m_Bottles = new List<Image>();
     Material m_HungerMat;
@@ -30,6 +30,9 @@ public class UIManager : MonoBehaviour
     int m_MaxBottles = 3;
 
     static readonly int s_Amount = Shader.PropertyToID("_Amount");
+
+    static ComponentType[] k_NeedType;
+    static ComponentType[] k_InventoryType;
 
     public void Awake()
     {
@@ -45,6 +48,8 @@ public class UIManager : MonoBehaviour
         m_HungerMat.SetFloat(s_Amount, 1);
         m_ThirstMat.SetFloat(s_Amount, 1);
         m_FatigueMat.SetFloat(s_Amount, 1);
+        k_NeedType = new ComponentType[] { typeof(Need) };
+        k_InventoryType = new ComponentType[] { typeof(Inventory) };
     }
 
     public void Start()
@@ -86,23 +91,19 @@ public class UIManager : MonoBehaviour
 
     public void Update()
     {
-        if (m_Controller == null)
-        {
-            m_Controller = m_Otto.Controller;
-            return;
-        }
+#if PLANNER_DOMAIN_GENERATED
+        var state = m_Otto.GetCurrentState(false);
 
-        var stateEntity = m_Controller.CurrentStateEntity;
-
-        SetNeeds(stateEntity);
-        SetInventory(stateEntity);
+        SetNeeds(state);
+        SetInventory(state);
+#endif
     }
-
-    void SetNeeds(Entity stateEntity)
+    void SetNeeds(StateData state)
     {
-        foreach (var domainObjectEntity in m_Otto.GetObjectEntities(stateEntity, typeof(Need)))
+        var domainObjects = new NativeList<(DomainObject, int)>(4, Allocator.TempJob);
+        foreach (var (_, domainObjectIndex) in state.GetDomainObjects(domainObjects, k_NeedType))
         {
-            var need = m_Otto.GetObjectTrait<Need>(domainObjectEntity);
+            var need = state.GetTraitOnObjectAtIndex<Need>(domainObjectIndex);
 
             if (need.NeedType == NeedType.Hunger)
                 m_HungerMat.SetFloat(s_Amount, 1 - need.Urgency / 100f);
@@ -111,13 +112,15 @@ public class UIManager : MonoBehaviour
             else if (need.NeedType == NeedType.Fatigue)
                 m_FatigueMat.SetFloat(s_Amount, 1 - need.Urgency / 100f);
         }
+        domainObjects.Dispose();
     }
 
-    void SetInventory(Entity stateEntity)
+    void SetInventory(StateData state)
     {
-        foreach (var domainObjectEntity in m_Otto.GetObjectEntities(stateEntity, typeof(Inventory)))
+        var domainObjects = new NativeList<(DomainObject, int)>(4, Allocator.TempJob);
+        foreach (var (_, domainObjectIndex) in state.GetDomainObjects(domainObjects, k_InventoryType))
         {
-            var inventory = m_Otto.GetObjectTrait<Inventory>(domainObjectEntity);
+            var inventory = state.GetTraitOnObjectAtIndex<Inventory>(domainObjectIndex);
 
             if (inventory.SatisfiesNeed == NeedType.Hunger) // Apples
             {
@@ -136,6 +139,7 @@ public class UIManager : MonoBehaviour
                 }
             }
         }
+        domainObjects.Dispose();
     }
 }
 #endif

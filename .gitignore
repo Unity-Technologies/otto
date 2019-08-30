@@ -45,7 +45,12 @@ sysinfo.txt
 /Assets/Troll Bridge Studios/**/*.unity
 /Assets/ParadoxNotion/**/*.unity
 /Assets/_UI/Materials/*Bar.mat
-#/ProjectSettings/ProjectVersion.txt
+/Assets/EntityCache*
+/Assets/StreamingAssets*
+/Assets/InitTestScene*
+
+# Other
+/ProjectSettings/XRSettings.asset
 .leu
 *.DotSettings
 ValidationSuiteResults/

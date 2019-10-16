@@ -14,7 +14,7 @@ The AI Planner includes authoring tools and a system for automated decision-maki
 Start by defining a planning domain, composed of objects with which your agent may interact. Then, create definitions for what actions or decisions an agent may make. Once the planning problem is defined, the planner system will iteratively build a plan that converges to an optimal solution. Execute these plans by creating an agent script and game code to control your characters.
 
 ## Installation Guide
-1. Clone this repo (downloading a .zip file will not include largefiles -- e.g. fbx, png)
+1. Clone this repo using `git lfs clone` (downloading a .zip file will not include [largefiles](https://help.github.com/en/articles/installing-git-large-file-storage) -- e.g. fbx, png)
 2. Open the project in Unity version 2019.2
 
 ## References

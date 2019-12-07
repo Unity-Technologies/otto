@@ -1,6 +1,6 @@
 | | |
 | :---        |          ---: |
-| **DO NOT download this project via the ZIP file option on GitHub (i.e. largefiles are not included -- fbx, png -- and will be missing). Clone the project using git.** | ![DONT DOWNLOAD ZIP](../assets/dont-download-zip.png?raw=true) |
+| **DO NOT download this project via the ZIP file option on GitHub (i.e. largefiles are not included -- fbx, png, etc. files will be missing). Clone the project using git.** | ![DONT DOWNLOAD ZIP](../assets/dont-download-zip.png?raw=true) |
 
 ### Note: _Otto has not been updated to use version 0.2.0 of the AI Planner yet._
 

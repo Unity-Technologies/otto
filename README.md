@@ -1,4 +1,8 @@
->**Note: Clone the project using git. A download of the project via ZIP will be missing files necessary for the demo scene.**
+| | |
+| :---        |          ---: |
+| **DO NOT download this project via the ZIP file option on GitHub (i.e. largefiles are not included -- fbx, png -- and will be missing). Clone the project using git.** | ![DONT DOWNLOAD ZIP](../assets/dont-download-zip.png?raw=true) |
+
+### Note: _Otto has not been updated to use version 0.2.0 of the AI Planner yet._
 
 # Otto
 Welcome to the Otto sample project for the [AI Planner](https://docs.unity3d.com/Packages/com.unity.ai.planner@0.1/). Otto derives happiness from working, but must eat, drink, and sleep to stay alive in order to work.
